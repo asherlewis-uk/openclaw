@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "lastGood": {
+    "nvidia": "nvidia:default",
+    "kimi": "kimi:default"
+  },
+  "usageStats": {
+    "nvidia:default": {
+      "lastUsed": 1778825386508,
+      "errorCount": 0
+    },
+    "kimi:default": {
+      "lastUsed": 1779352775431,
+      "errorCount": 0
+    }
+  }
+}

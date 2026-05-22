@@ -1,0 +1,26 @@
+{
+  "ca5b02b5c39e03542d719c14b5dbe385bcbf0b74ae53965c3d221fd084e51236": {
+    "nodeId": "ca5b02b5c39e03542d719c14b5dbe385bcbf0b74ae53965c3d221fd084e51236",
+    "token": "ynD0YOUy-K3HczDVpDEHkNYBH7TelkwjI6DMw4GCdd4",
+    "displayName": "asher’s MacBook Pro",
+    "platform": "macOS 26.5.0",
+    "version": "2026.5.12",
+    "deviceFamily": "Mac",
+    "modelIdentifier": "Mac15,6",
+    "caps": [
+      "canvas",
+      "screen",
+      "browser"
+    ],
+    "commands": [
+      "screen.snapshot",
+      "system.notify",
+      "system.which",
+      "system.run",
+      "browser.proxy"
+    ],
+    "createdAtMs": 1779036561974,
+    "approvedAtMs": 1779036561974,
+    "lastConnectedAtMs": 1779172287705
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "tokenFingerprint": "b34589c1e113fa1a",
+  "fetchedAt": "2026-05-20T09:56:52.470Z",
+  "botInfo": {
+    "id": 8688400011,
+    "is_bot": true,
+    "first_name": "MacDaddyClaw",
+    "username": "Mac_Daddy_Claw_Bot",
+    "can_join_groups": true,
+    "can_read_all_group_messages": false,
+    "can_manage_bots": false,
+    "supports_inline_queries": false,
+    "can_connect_to_business": false,
+    "has_main_web_app": false,
+    "has_topics_enabled": false,
+    "allows_users_to_create_topics": false
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "e0680d3ffd3d31327f889718f65ce8e4acf6163f4057ca3eaec38c9cf71d683a": {
+    "deviceId": "e0680d3ffd3d31327f889718f65ce8e4acf6163f4057ca3eaec38c9cf71d683a",
+    "publicKey": "7DM6--vRze0Dpx59tmpODRF-kkev1ZYi1K3M3FeGu00",
+    "platform": "darwin",
+    "clientId": "cli",
+    "clientMode": "cli",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.read",
+      "operator.pairing",
+      "operator.admin"
+    ],
+    "approvedScopes": [
+      "operator.read",
+      "operator.pairing",
+      "operator.admin"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "U48EXHsgJIlfrNDESd2E2j7TQIB8g_E5x4FjPf-CfG4",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.read",
+          "operator.write"
+        ],
+        "createdAtMs": 1778112717039,
+        "rotatedAtMs": 1779172402975,
+        "lastUsedAtMs": 1779308469052
+      }
+    },
+    "createdAtMs": 1778112717039,
+    "approvedAtMs": 1779172402975
+  },
+  "ca5b02b5c39e03542d719c14b5dbe385bcbf0b74ae53965c3d221fd084e51236": {
+    "deviceId": "ca5b02b5c39e03542d719c14b5dbe385bcbf0b74ae53965c3d221fd084e51236",
+    "publicKey": "7TDPsnTZ_Sl8F6iDEYy6jfrUP5jb24wImLL_cRjcZ5M",
+    "displayName": "asher’s MacBook Pro",
+    "platform": "macOS 26.5.0",
+    "deviceFamily": "Mac",
+    "clientId": "openclaw-macos",
+    "clientMode": "ui",
+    "role": "node",
+    "roles": [
+      "operator",
+      "node"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "approvedScopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "LzbR8lSEMIRlMBAWzfebJWde7gTZz_jQBNALcbJA4FQ",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing",
+          "operator.read",
+          "operator.write"
+        ],
+        "createdAtMs": 1779035282737
+      },
+      "node": {
+        "token": "LAXXNq_Ign4XhvG1ZPDPzc9ICZuVMMmk3d1ZboaAhLw",
+        "role": "node",
+        "scopes": [],
+        "createdAtMs": 1779035298776
+      }
+    },
+    "createdAtMs": 1779035282736,
+    "approvedAtMs": 1779035298775
+  }
+}

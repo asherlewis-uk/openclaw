@@ -1,0 +1,753 @@
+2026-05-17T11:27:59.824-05:00 [gateway] loading configuration…
+2026-05-17T11:28:00.229-05:00 [gateway] resolving authentication…
+2026-05-17T11:28:00.234-05:00 [gateway] starting...
+2026-05-17T11:28:01.618-05:00 [gateway] starting HTTP server...
+2026-05-17T11:28:01.643-05:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-05-17T11:28:01.922-05:00 [gateway] agent model: amazon-bedrock/global.anthropic.claude-opus-4-7 (thinking=medium, fast=off)
+2026-05-17T11:28:01.923-05:00 [gateway] http server listening (1 plugin: telegram; 1.7s)
+2026-05-17T11:28:01.924-05:00 [gateway] log file: /tmp/openclaw/openclaw-2026-05-17.log
+2026-05-17T11:28:01.995-05:00 [gateway] starting channels and sidecars...
+2026-05-17T11:28:02.134-05:00 [hooks] loaded 5 internal hook handlers
+2026-05-17T11:28:02.206-05:00 [gateway] ready
+2026-05-17T11:28:02.210-05:00 [heartbeat] started
+2026-05-17T11:28:02.751-05:00 [gateway] device pairing auto-approved device=ca5b02b5c39e03542d719c14b5dbe385bcbf0b74ae53965c3d221fd084e51236 role=operator
+2026-05-17T11:28:02.950-05:00 [ws] ⇄ res ✓ health 185ms conn=c93448d4…4725 id=0039F81D…46E7
+2026-05-17T11:28:03.223-05:00 [gateway] signal SIGTERM received
+2026-05-17T11:28:03.228-05:00 [gateway] received SIGTERM; shutting down
+2026-05-17T11:28:03.240-05:00 [shutdown] started: gateway stopping
+2026-05-17T11:28:04.866-05:00 [telegram] [default] starting provider (@Mac_Daddy_Claw_Bot)
+2026-05-17T11:28:04.993-05:00 [gmail-watcher] gmail watcher stopped
+2026-05-17T11:28:04.996-05:00 [shutdown] completed cleanly in 1757ms
+2026-05-17T11:28:10.061-05:00 [gateway] loading configuration…
+2026-05-17T11:28:10.439-05:00 [gateway] resolving authentication…
+2026-05-17T11:28:10.443-05:00 [gateway] starting...
+2026-05-17T11:28:11.641-05:00 [gateway] starting HTTP server...
+2026-05-17T11:28:11.661-05:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-05-17T11:28:11.902-05:00 [gateway] agent model: amazon-bedrock/global.anthropic.claude-opus-4-7 (thinking=medium, fast=off)
+2026-05-17T11:28:11.902-05:00 [gateway] http server listening (1 plugin: telegram; 1.5s)
+2026-05-17T11:28:11.903-05:00 [gateway] log file: /tmp/openclaw/openclaw-2026-05-17.log
+2026-05-17T11:28:11.972-05:00 [gateway] starting channels and sidecars...
+2026-05-17T11:28:12.090-05:00 [hooks] loaded 5 internal hook handlers
+2026-05-17T11:28:12.162-05:00 [gateway] ready
+2026-05-17T11:28:12.165-05:00 [heartbeat] started
+2026-05-17T11:28:13.041-05:00 [ws] ⇄ res ✓ node.pair.list 135ms conn=24b8867f…faa0 id=5D9519A4…E468
+2026-05-17T11:28:13.045-05:00 [telegram] [default] starting provider (@Mac_Daddy_Claw_Bot)
+2026-05-17T11:28:18.791-05:00 [gateway] device pairing auto-approved device=ca5b02b5c39e03542d719c14b5dbe385bcbf0b74ae53965c3d221fd084e51236 role=node
+2026-05-17T11:28:42.664-05:00 [ws] ⇄ res ✓ health 85ms cached=true conn=24b8867f…faa0 id=20D48011…4CA5
+2026-05-17T11:29:01.465-05:00 [ws] ⇄ res ✓ health 117ms conn=24b8867f…faa0 id=0EB9DC31…23E6
+2026-05-17T11:29:12.750-05:00 [ws] ⇄ res ✓ health 77ms conn=24b8867f…faa0 id=70270A1A…2664
+2026-05-17T11:29:12.822-05:00 [ws] ⇄ res ✓ health 70ms conn=24b8867f…faa0 id=8CAA1CE1…5B55
+2026-05-17T11:29:42.763-05:00 [ws] ⇄ res ✓ health 89ms cached=true conn=24b8867f…faa0 id=62F82113…616C
+2026-05-17T11:30:01.608-05:00 [ws] ⇄ res ✓ health 85ms cached=true conn=24b8867f…faa0 id=0649AC73…77C0
+2026-05-17T11:30:42.794-05:00 [ws] ⇄ res ✓ health 87ms cached=true conn=24b8867f…faa0 id=90C4FCE1…DE41
+2026-05-17T11:31:01.788-05:00 [ws] ⇄ res ✓ health 83ms cached=true conn=24b8867f…faa0 id=F9EEB174…2C63
+2026-05-17T11:31:32.203-05:00 [reload] config change detected; evaluating reload (agents.defaults.workspace)
+2026-05-17T11:31:42.765-05:00 [ws] ⇄ res ✓ health 67ms cached=true conn=24b8867f…faa0 id=0A03429F…401B
+2026-05-17T11:32:01.899-05:00 [ws] ⇄ res ✓ health 73ms cached=true conn=24b8867f…faa0 id=1949EF81…FDD3
+2026-05-17T11:32:27.256-05:00 [gateway] device pairing approved device=e0680d3ffd3d31327f889718f65ce8e4acf6163f4057ca3eaec38c9cf71d683a role=operator
+2026-05-17T11:32:42.773-05:00 [ws] ⇄ res ✓ health 72ms cached=true conn=24b8867f…faa0 id=FE5B5643…3296
+2026-05-17T11:33:02.041-05:00 [ws] ⇄ res ✓ health 63ms cached=true conn=24b8867f…faa0 id=B7C8A714…A149
+2026-05-17T11:33:42.785-05:00 [ws] ⇄ res ✓ health 84ms cached=true conn=24b8867f…faa0 id=D5BF0353…7901
+2026-05-17T11:34:02.340-05:00 [ws] ⇄ res ✓ health 80ms cached=true conn=24b8867f…faa0 id=FE049CB2…9FB1
+2026-05-17T11:34:42.775-05:00 [ws] ⇄ res ✓ health 71ms cached=true conn=24b8867f…faa0 id=F3B3905F…4403
+2026-05-17T11:35:02.483-05:00 [ws] ⇄ res ✓ health 91ms cached=true conn=24b8867f…faa0 id=8CA36602…B65C
+2026-05-17T11:35:42.778-05:00 [ws] ⇄ res ✓ health 75ms cached=true conn=24b8867f…faa0 id=BA4CEE5A…DA35
+2026-05-17T11:36:02.599-05:00 [ws] ⇄ res ✓ health 75ms cached=true conn=24b8867f…faa0 id=FC022994…355B
+2026-05-17T11:36:42.775-05:00 [ws] ⇄ res ✓ health 68ms cached=true conn=24b8867f…faa0 id=3A793D66…0A9A
+2026-05-17T11:37:03.020-05:00 [ws] ⇄ res ✓ health 82ms cached=true conn=24b8867f…faa0 id=0916353E…3DD8
+2026-05-17T11:37:42.803-05:00 [ws] ⇄ res ✓ health 92ms cached=true conn=24b8867f…faa0 id=55C3538E…F1C9
+2026-05-17T11:38:03.273-05:00 [ws] ⇄ res ✓ health 88ms cached=true conn=24b8867f…faa0 id=A69F7F72…C9F3
+2026-05-17T11:38:42.790-05:00 [ws] ⇄ res ✓ health 77ms cached=true conn=24b8867f…faa0 id=620CECAB…EAB9
+2026-05-17T11:39:03.540-05:00 [ws] ⇄ res ✓ health 73ms cached=true conn=24b8867f…faa0 id=969E0F9F…64C3
+2026-05-17T11:39:42.783-05:00 [ws] ⇄ res ✓ health 68ms cached=true conn=24b8867f…faa0 id=72C4344B…E22C
+2026-05-17T11:40:03.789-05:00 [ws] ⇄ res ✓ health 87ms cached=true conn=24b8867f…faa0 id=4F9562F9…F388
+2026-05-17T11:40:42.798-05:00 [ws] ⇄ res ✓ health 76ms cached=true conn=24b8867f…faa0 id=772677F8…DA3C
+2026-05-17T11:41:04.041-05:00 [ws] ⇄ res ✓ health 85ms cached=true conn=24b8867f…faa0 id=9AC1C4CE…6536
+2026-05-17T11:41:42.781-05:00 [ws] ⇄ res ✓ health 68ms cached=true conn=24b8867f…faa0 id=5C225BE0…D88E
+2026-05-17T11:42:04.168-05:00 [ws] ⇄ res ✓ health 91ms cached=true conn=24b8867f…faa0 id=53CAD768…C375
+2026-05-17T11:42:14.329-05:00 [reload] config change detected; evaluating reload (gateway.port)
+2026-05-17T11:42:14.334-05:00 [gateway] signal SIGUSR1 received
+2026-05-17T11:42:14.341-05:00 [gateway] received SIGUSR1; restarting
+2026-05-17T11:42:14.356-05:00 [shutdown] started: gateway restarting
+2026-05-17T11:42:19.584-05:00 [reload] config change detected; evaluating reload (gateway.remote.url)
+2026-05-17T11:42:20.126-05:00 [gmail-watcher] gmail watcher stopped
+2026-05-17T11:42:20.131-05:00 [shutdown] completed cleanly in 5775ms
+2026-05-17T11:42:20.136-05:00 [gateway] restart mode: full process restart (supervisor restart)
+2026-05-17T11:42:22.692-05:00 [gateway] loading configuration…
+2026-05-17T11:42:23.054-05:00 [gateway] resolving authentication…
+2026-05-17T11:42:23.060-05:00 [gateway] starting...
+2026-05-17T11:42:24.558-05:00 [gateway] starting HTTP server...
+2026-05-17T11:42:24.583-05:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-05-17T11:42:24.866-05:00 [gateway] agent model: amazon-bedrock/global.anthropic.claude-opus-4-7 (thinking=medium, fast=off)
+2026-05-17T11:42:24.867-05:00 [gateway] http server listening (1 plugin: telegram; 1.8s)
+2026-05-17T11:42:24.868-05:00 [gateway] log file: /tmp/openclaw/openclaw-2026-05-17.log
+2026-05-17T11:42:24.902-05:00 [gateway] starting channels and sidecars...
+2026-05-17T11:42:24.970-05:00 [hooks] loaded 5 internal hook handlers
+2026-05-17T11:42:25.051-05:00 [gateway] ready
+2026-05-17T11:42:25.055-05:00 [heartbeat] started
+2026-05-17T11:42:25.772-05:00 [telegram] [default] starting provider (@Mac_Daddy_Claw_Bot)
+2026-05-17T11:42:26.000-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 66 commands visible.
+2026-05-17T11:42:26.194-05:00 [ws] ⇄ res ✓ exec.approval.list 134ms conn=10720fce…966d id=b4201918…9486
+2026-05-17T11:43:20.913-05:00 [gateway] signal SIGTERM received
+2026-05-17T11:43:20.931-05:00 [gateway] received SIGTERM; shutting down
+2026-05-17T11:43:20.950-05:00 [shutdown] started: gateway stopping
+2026-05-17T11:43:21.407-05:00 [gateway] signal SIGTERM received
+2026-05-17T11:43:21.407-05:00 [gateway] received SIGTERM during shutdown; ignoring
+2026-05-17T11:43:26.425-05:00 [gmail-watcher] gmail watcher stopped
+2026-05-17T11:43:26.429-05:00 [shutdown] completed cleanly in 5478ms
+2026-05-17T11:43:37.270-05:00 [gateway] loading configuration…
+2026-05-17T11:43:37.623-05:00 [gateway] resolving authentication…
+2026-05-17T11:43:37.628-05:00 [gateway] starting...
+2026-05-17T11:43:39.068-05:00 [gateway] starting HTTP server...
+2026-05-17T11:43:39.090-05:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-05-17T11:43:39.378-05:00 [gateway] agent model: amazon-bedrock/global.anthropic.claude-opus-4-7 (thinking=medium, fast=off)
+2026-05-17T11:43:39.378-05:00 [gateway] http server listening (1 plugin: telegram; 1.7s)
+2026-05-17T11:43:39.379-05:00 [gateway] log file: /tmp/openclaw/openclaw-2026-05-17.log
+2026-05-17T11:43:39.411-05:00 [gateway] starting channels and sidecars...
+2026-05-17T11:43:39.492-05:00 [hooks] loaded 5 internal hook handlers
+2026-05-17T11:43:39.565-05:00 [gateway] ready
+2026-05-17T11:43:39.568-05:00 [heartbeat] started
+2026-05-17T11:43:40.179-05:00 [telegram] [default] starting provider (@Mac_Daddy_Claw_Bot)
+2026-05-17T11:43:40.392-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 66 commands visible.
+2026-05-17T11:43:40.561-05:00 [ws] ⇄ res ✓ exec.approval.list 149ms conn=34c727e9…a50d id=ea13d0c1…38ee
+2026-05-17T11:44:53.060-05:00 [gateway] signal SIGTERM received
+2026-05-17T11:44:53.081-05:00 [gateway] received SIGTERM; shutting down
+2026-05-17T11:44:53.101-05:00 [shutdown] started: gateway stopping
+2026-05-17T11:44:58.624-05:00 [gmail-watcher] gmail watcher stopped
+2026-05-17T11:44:58.627-05:00 [shutdown] completed cleanly in 5527ms
+2026-05-17T11:44:59.701-05:00 [gateway] loading configuration…
+2026-05-17T11:45:00.104-05:00 [gateway] resolving authentication…
+2026-05-17T11:45:00.110-05:00 [gateway] starting...
+2026-05-17T11:45:01.640-05:00 [gateway] starting HTTP server...
+2026-05-17T11:45:01.663-05:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-05-17T11:45:01.944-05:00 [gateway] agent model: amazon-bedrock/global.anthropic.claude-opus-4-7 (thinking=medium, fast=off)
+2026-05-17T11:45:01.945-05:00 [gateway] http server listening (1 plugin: telegram; 1.8s)
+2026-05-17T11:45:01.946-05:00 [gateway] log file: /tmp/openclaw/openclaw-2026-05-17.log
+2026-05-17T11:45:01.980-05:00 [gateway] starting channels and sidecars...
+2026-05-17T11:45:02.049-05:00 [hooks] loaded 5 internal hook handlers
+2026-05-17T11:45:02.118-05:00 [gateway] ready
+2026-05-17T11:45:02.122-05:00 [heartbeat] started
+2026-05-17T11:45:02.732-05:00 [telegram] [default] starting provider (@Mac_Daddy_Claw_Bot)
+2026-05-17T11:45:02.971-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 66 commands visible.
+2026-05-17T11:45:03.134-05:00 [ws] ⇄ res ✓ exec.approval.list 138ms conn=64b79fdf…d491 id=6b5dbbfb…8bc3
+2026-05-17T11:45:08.258-05:00 [gateway] signal SIGTERM received
+2026-05-17T11:45:08.276-05:00 [gateway] received SIGTERM; shutting down
+2026-05-17T11:45:08.294-05:00 [shutdown] started: gateway stopping
+2026-05-17T11:45:13.743-05:00 [gmail-watcher] gmail watcher stopped
+2026-05-17T11:45:13.748-05:00 [shutdown] completed cleanly in 5454ms
+2026-05-17T11:45:50.829-05:00 [gateway] loading configuration…
+2026-05-17T11:45:51.167-05:00 [gateway] resolving authentication…
+2026-05-17T11:45:51.172-05:00 [gateway] starting...
+2026-05-17T11:45:52.326-05:00 [gateway] starting HTTP server...
+2026-05-17T11:45:52.343-05:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-05-17T11:45:52.570-05:00 [gateway] agent model: amazon-bedrock/global.anthropic.claude-opus-4-7 (thinking=medium, fast=off)
+2026-05-17T11:45:52.571-05:00 [gateway] http server listening (1 plugin: telegram; 1.4s)
+2026-05-17T11:45:52.572-05:00 [gateway] log file: /tmp/openclaw/openclaw-2026-05-17.log
+2026-05-17T11:45:52.607-05:00 [gateway] starting channels and sidecars...
+2026-05-17T11:45:52.669-05:00 [hooks] loaded 5 internal hook handlers
+2026-05-17T11:45:52.737-05:00 [gateway] ready
+2026-05-17T11:45:52.740-05:00 [heartbeat] started
+2026-05-17T11:45:54.028-05:00 [telegram] [default] starting provider (@Mac_Daddy_Claw_Bot)
+2026-05-17T11:45:54.232-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 66 commands visible.
+2026-05-17T11:45:54.408-05:00 [ws] ⇄ res ✓ exec.approval.list 113ms conn=3a159090…3f02 id=f0a01c78…b646
+2026-05-17T11:49:05.396-05:00 [gateway] signal SIGTERM received
+2026-05-17T11:49:05.414-05:00 [gateway] received SIGTERM; shutting down
+2026-05-17T11:49:05.430-05:00 [shutdown] started: gateway stopping
+2026-05-17T11:49:10.881-05:00 [gmail-watcher] gmail watcher stopped
+2026-05-17T11:49:10.887-05:00 [shutdown] completed cleanly in 5456ms
+2026-05-17T11:49:12.100-05:00 [gateway] loading configuration…
+2026-05-17T11:49:12.452-05:00 [gateway] resolving authentication…
+2026-05-17T11:49:12.458-05:00 [gateway] starting...
+2026-05-17T11:49:13.877-05:00 [gateway] starting HTTP server...
+2026-05-17T11:49:13.899-05:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-05-17T11:49:14.177-05:00 [gateway] agent model: amazon-bedrock/global.anthropic.claude-opus-4-7 (thinking=medium, fast=off)
+2026-05-17T11:49:14.178-05:00 [gateway] http server listening (1 plugin: telegram; 1.7s)
+2026-05-17T11:49:14.179-05:00 [gateway] log file: /tmp/openclaw/openclaw-2026-05-17.log
+2026-05-17T11:49:14.216-05:00 [gateway] starting channels and sidecars...
+2026-05-17T11:49:14.278-05:00 [hooks] loaded 5 internal hook handlers
+2026-05-17T11:49:14.350-05:00 [gateway] ready
+2026-05-17T11:49:14.353-05:00 [heartbeat] started
+2026-05-17T11:49:15.020-05:00 [telegram] [default] starting provider (@Mac_Daddy_Claw_Bot)
+2026-05-17T11:49:15.229-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 66 commands visible.
+2026-05-17T11:49:15.378-05:00 [ws] ⇄ res ✓ exec.approval.list 128ms conn=2d600d09…fb3b id=0c79cb28…97c7
+2026-05-17T11:49:17.665-05:00 [ws] ⇄ res ✓ health 64ms conn=d507dc12…7425 id=70D031C6…9F7E
+2026-05-17T11:49:17.667-05:00 [ws] ⇄ res ✓ node.pair.list 66ms conn=d507dc12…7425 id=D1890549…E8D7
+2026-05-17T11:49:44.751-05:00 [ws] ⇄ res ✓ health 87ms cached=true conn=d507dc12…7425 id=E4A6F84B…E8D0
+2026-05-17T11:50:14.842-05:00 [ws] ⇄ res ✓ health 90ms conn=d507dc12…7425 id=629416D3…3042
+2026-05-17T11:50:14.933-05:00 [ws] ⇄ res ✓ health 89ms conn=d507dc12…7425 id=B436FBC2…DE22
+2026-05-17T11:50:17.829-05:00 [ws] ⇄ res ✓ health 69ms cached=true conn=d507dc12…7425 id=E55763EB…39C0
+2026-05-17T11:50:17.879-05:00 [ws] ⇄ res ✓ channels.status 583ms conn=a5922b9b…396f id=1f2df147…77b6
+2026-05-17T11:50:18.013-05:00 [ws] ⇄ res ✓ doctor.memory.status 79ms conn=6c557700…400b id=71c5f3b1…85d6
+2026-05-17T11:50:27.125-05:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, plugins.allow, plugins.bundledDiscovery, wizard.lastRunAt, wizard.lastRunCommand, wizard.lastRunVersion)
+2026-05-17T11:50:27.253-05:00 [reload] config hot reload applied (plugins.allow, plugins.bundledDiscovery)
+2026-05-17T11:50:44.832-05:00 [ws] ⇄ res ✓ health 72ms cached=true conn=d507dc12…7425 id=E87148F2…B38E
+2026-05-17T11:51:17.939-05:00 [ws] ⇄ res ✓ health 68ms cached=true conn=d507dc12…7425 id=8994DE45…2724
+2026-05-17T11:51:25.129-05:00 [ws] ⇄ res ✗ system-presence 0ms errorCode=INVALID_REQUEST errorMessage=missing scope: operator.read conn=1b004d66…9dc5 id=316f9749…a745
+2026-05-17T11:51:44.842-05:00 [ws] ⇄ res ✓ health 68ms cached=true conn=d507dc12…7425 id=7C828F2A…6BF1
+2026-05-17T11:52:18.087-05:00 [ws] ⇄ res ✓ health 65ms cached=true conn=d507dc12…7425 id=9BF9EF31…69CF
+2026-05-17T11:52:44.847-05:00 [ws] ⇄ res ✓ health 74ms cached=true conn=d507dc12…7425 id=BC909DD5…F8ED
+2026-05-17T11:53:05.262-05:00 [telegram] Inbound message telegram:5671500122 -> @Mac_Daddy_Claw_Bot (direct, 6 chars)
+2026-05-17T11:53:18.282-05:00 [ws] ⇄ res ✓ health 70ms cached=true conn=d507dc12…7425 id=24D62588…FE82
+2026-05-17T11:53:42.158-05:00 [ws] ⇄ res ✗ device.pair.approve 0ms errorCode=INVALID_REQUEST errorMessage=unknown requestId conn=5732b704…c3df id=4f57887a…aeb9
+2026-05-17T11:53:44.840-05:00 [ws] ⇄ res ✓ health 72ms cached=true conn=d507dc12…7425 id=64B5E030…4DA9
+2026-05-17T11:54:18.412-05:00 [ws] ⇄ res ✓ health 71ms cached=true conn=d507dc12…7425 id=AFB7F658…33E9
+2026-05-17T11:54:44.863-05:00 [ws] ⇄ res ✓ health 79ms cached=true conn=d507dc12…7425 id=088A3D60…996D
+2026-05-17T11:55:18.605-05:00 [ws] ⇄ res ✓ health 76ms cached=true conn=d507dc12…7425 id=B484CDF7…572C
+2026-05-17T11:55:44.870-05:00 [ws] ⇄ res ✓ health 74ms cached=true conn=d507dc12…7425 id=F5799E77…F0BA
+2026-05-17T11:56:18.768-05:00 [ws] ⇄ res ✓ health 69ms cached=true conn=d507dc12…7425 id=5A9BD52D…319A
+2026-05-17T11:56:44.879-05:00 [ws] ⇄ res ✓ health 94ms cached=true conn=d507dc12…7425 id=023F1DD6…A977
+2026-05-17T11:57:18.893-05:00 [ws] ⇄ res ✓ health 69ms cached=true conn=d507dc12…7425 id=E2E059D0…E456
+2026-05-17T11:57:44.868-05:00 [ws] ⇄ res ✓ health 73ms cached=true conn=d507dc12…7425 id=5C18CA39…5D1F
+2026-05-17T11:58:19.036-05:00 [ws] ⇄ res ✓ health 73ms cached=true conn=d507dc12…7425 id=96138BB0…D915
+2026-05-17T11:58:44.882-05:00 [ws] ⇄ res ✓ health 88ms cached=true conn=d507dc12…7425 id=B977400E…2AB9
+2026-05-17T11:59:19.239-05:00 [ws] ⇄ res ✓ health 74ms cached=true conn=d507dc12…7425 id=BFEF1FC5…026E
+2026-05-17T11:59:44.866-05:00 [ws] ⇄ res ✓ health 74ms cached=true conn=d507dc12…7425 id=67318ED8…1409
+2026-05-17T12:00:19.346-05:00 [ws] ⇄ res ✓ health 67ms cached=true conn=d507dc12…7425 id=FCDBBFBC…062F
+2026-05-17T12:00:44.884-05:00 [ws] ⇄ res ✓ health 88ms cached=true conn=d507dc12…7425 id=845BDFCF…C635
+2026-05-17T12:01:19.591-05:00 [ws] ⇄ res ✓ health 83ms cached=true conn=d507dc12…7425 id=2CA670B1…BA88
+2026-05-17T12:01:44.856-05:00 [ws] ⇄ res ✓ health 60ms cached=true conn=d507dc12…7425 id=07CC6901…4B19
+2026-05-17T12:02:19.704-05:00 [ws] ⇄ res ✓ health 65ms cached=true conn=d507dc12…7425 id=BFC87E1B…376A
+2026-05-17T12:02:44.849-05:00 [ws] ⇄ res ✓ health 58ms cached=true conn=d507dc12…7425 id=C22DBC41…B8B6
+2026-05-17T12:03:19.827-05:00 [ws] ⇄ res ✓ health 69ms cached=true conn=d507dc12…7425 id=596CBC3D…2105
+2026-05-17T12:03:44.864-05:00 [ws] ⇄ res ✓ health 70ms cached=true conn=d507dc12…7425 id=DDB47DDF…B585
+2026-05-17T12:04:20.116-05:00 [ws] ⇄ res ✓ health 74ms cached=true conn=d507dc12…7425 id=7037C995…3E49
+2026-05-17T12:04:44.881-05:00 [ws] ⇄ res ✓ health 78ms cached=true conn=d507dc12…7425 id=28727175…B8DF
+2026-05-17T12:05:20.238-05:00 [ws] ⇄ res ✓ health 76ms cached=true conn=d507dc12…7425 id=2C338986…5523
+2026-05-17T12:05:44.885-05:00 [ws] ⇄ res ✓ health 83ms cached=true conn=d507dc12…7425 id=E546727B…D29D
+2026-05-17T12:06:20.659-05:00 [ws] ⇄ res ✓ health 69ms cached=true conn=d507dc12…7425 id=F8C60CE0…D66D
+2026-05-17T12:06:44.884-05:00 [ws] ⇄ res ✓ health 81ms cached=true conn=d507dc12…7425 id=20512658…E799
+2026-05-17T12:07:20.792-05:00 [ws] ⇄ res ✓ health 76ms cached=true conn=d507dc12…7425 id=CEDFB941…C8C1
+2026-05-17T12:07:44.879-05:00 [ws] ⇄ res ✓ health 74ms cached=true conn=d507dc12…7425 id=5DC40CD8…F903
+2026-05-17T12:08:20.955-05:00 [ws] ⇄ res ✓ health 69ms cached=true conn=d507dc12…7425 id=85224843…001A
+2026-05-17T12:08:44.861-05:00 [ws] ⇄ res ✓ health 73ms cached=true conn=d507dc12…7425 id=B50888F7…298F
+2026-05-17T12:09:21.189-05:00 [ws] ⇄ res ✓ health 75ms cached=true conn=d507dc12…7425 id=C7D40485…ECE0
+2026-05-17T12:09:44.896-05:00 [ws] ⇄ res ✓ health 89ms cached=true conn=d507dc12…7425 id=658B0D9B…7041
+2026-05-17T12:10:21.285-05:00 [ws] ⇄ res ✓ health 71ms cached=true conn=d507dc12…7425 id=75104191…CD18
+2026-05-17T12:10:44.898-05:00 [ws] ⇄ res ✓ health 88ms cached=true conn=d507dc12…7425 id=87AD2E46…0147
+2026-05-17T12:11:21.561-05:00 [ws] ⇄ res ✓ health 64ms cached=true conn=d507dc12…7425 id=38A0158F…E098
+2026-05-17T12:11:44.884-05:00 [ws] ⇄ res ✓ health 71ms cached=true conn=d507dc12…7425 id=C1E748E9…D3A7
+2026-05-17T12:12:21.743-05:00 [ws] ⇄ res ✓ health 69ms cached=true conn=d507dc12…7425 id=99806731…E20D
+2026-05-17T12:12:44.899-05:00 [ws] ⇄ res ✓ health 86ms cached=true conn=d507dc12…7425 id=961ECCAA…5E7B
+2026-05-17T12:13:21.923-05:00 [ws] ⇄ res ✓ health 67ms cached=true conn=d507dc12…7425 id=1244B5BB…0FF4
+2026-05-17T12:13:44.882-05:00 [ws] ⇄ res ✓ health 77ms cached=true conn=d507dc12…7425 id=15E79C29…E6FF
+2026-05-17T12:14:22.258-05:00 [ws] ⇄ res ✓ health 73ms cached=true conn=d507dc12…7425 id=8F2B77E3…08EC
+2026-05-17T12:14:44.913-05:00 [ws] ⇄ res ✓ health 88ms cached=true conn=d507dc12…7425 id=0B8A8A19…99FF
+2026-05-17T12:15:22.613-05:00 [ws] ⇄ res ✓ health 73ms cached=true conn=d507dc12…7425 id=15E257B7…5F0A
+2026-05-17T12:15:44.905-05:00 [ws] ⇄ res ✓ health 84ms cached=true conn=d507dc12…7425 id=8477F595…EB18
+2026-05-17T12:16:22.713-05:00 [ws] ⇄ res ✓ health 70ms cached=true conn=d507dc12…7425 id=39235D4A…30CF
+2026-05-17T12:16:44.900-05:00 [ws] ⇄ res ✓ health 74ms cached=true conn=d507dc12…7425 id=958AE924…2963
+2026-05-17T12:17:22.817-05:00 [ws] ⇄ res ✓ health 76ms cached=true conn=d507dc12…7425 id=BEF8C340…D385
+2026-05-17T12:17:44.892-05:00 [ws] ⇄ res ✓ health 64ms cached=true conn=d507dc12…7425 id=42AF0FA1…E353
+2026-05-17T12:18:14.948-05:00 [ws] ⇄ res ✓ node.list 55ms conn=d507dc12…7425 id=7D9E905E…E129
+2026-05-17T12:18:23.064-05:00 [ws] ⇄ res ✓ health 68ms cached=true conn=d507dc12…7425 id=FF309EEB…9CB4
+2026-05-17T12:18:44.885-05:00 [ws] ⇄ res ✓ health 70ms cached=true conn=d507dc12…7425 id=BBB2EF62…412A
+2026-05-17T12:19:23.195-05:00 [ws] ⇄ res ✓ health 75ms cached=true conn=d507dc12…7425 id=66D2F931…37F6
+2026-05-17T12:19:44.909-05:00 [ws] ⇄ res ✓ health 80ms cached=true conn=d507dc12…7425 id=E9A0B9C5…BE42
+2026-05-17T12:20:23.319-05:00 [ws] ⇄ res ✓ health 67ms cached=true conn=d507dc12…7425 id=0DF5B943…96A4
+2026-05-17T12:20:44.902-05:00 [ws] ⇄ res ✓ health 69ms cached=true conn=d507dc12…7425 id=BEAFB80D…063D
+2026-05-17T12:21:23.489-05:00 [ws] ⇄ res ✓ health 72ms cached=true conn=d507dc12…7425 id=E754EC87…0D25
+2026-05-17T12:21:44.909-05:00 [ws] ⇄ res ✓ health 71ms cached=true conn=d507dc12…7425 id=784B183A…0F0B
+2026-05-17T12:22:23.604-05:00 [ws] ⇄ res ✓ health 74ms cached=true conn=d507dc12…7425 id=A27C5F98…D6BF
+2026-05-17T12:22:44.913-05:00 [ws] ⇄ res ✓ health 81ms cached=true conn=d507dc12…7425 id=7A0AAAFE…34A5
+2026-05-17T12:23:17.100-05:00 [ws] ⇄ res ✓ channels.status 505ms conn=d17c54e2…7d2e id=6f6b92d6…6ac6
+2026-05-17T12:23:23.723-05:00 [ws] ⇄ res ✓ health 74ms cached=true conn=d507dc12…7425 id=771001F3…DBCD
+2026-05-17T12:23:44.903-05:00 [ws] ⇄ res ✓ health 64ms cached=true conn=d507dc12…7425 id=70FA1119…2E8E
+2026-05-17T12:23:57.701-05:00 [ws] ⇄ res ✓ channels.status 547ms conn=3425136f…c7cc id=dedccc11…51fe
+2026-05-17T12:24:23.774-05:00 [gateway] signal SIGTERM received
+2026-05-17T12:24:23.789-05:00 [gateway] received SIGTERM; restarting
+2026-05-17T12:24:23.805-05:00 [shutdown] started: gateway restarting
+2026-05-17T12:24:35.907-05:00 [gateway] loading configuration…
+2026-05-17T12:24:36.229-05:00 [gateway] resolving authentication…
+2026-05-17T12:24:36.233-05:00 [gateway] starting...
+2026-05-17T12:24:37.620-05:00 [gateway] starting HTTP server...
+2026-05-17T12:24:37.653-05:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-05-17T12:24:37.994-05:00 [gateway] agent model: amazon-bedrock/global.anthropic.claude-opus-4-7 (thinking=medium, fast=off)
+2026-05-17T12:24:37.995-05:00 [gateway] http server listening (2 plugins: memory-core, telegram; 1.8s)
+2026-05-17T12:24:37.996-05:00 [gateway] log file: /tmp/openclaw/openclaw-2026-05-17.log
+2026-05-17T12:24:38.011-05:00 [gateway] starting channels and sidecars...
+2026-05-17T12:24:38.060-05:00 [hooks] loaded 5 internal hook handlers
+2026-05-17T12:24:38.114-05:00 [gateway] ready
+2026-05-17T12:24:38.118-05:00 [heartbeat] started
+2026-05-17T12:24:38.624-05:00 [telegram] [default] starting provider (@Mac_Daddy_Claw_Bot)
+2026-05-17T12:24:38.788-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-17T12:24:38.947-05:00 [ws] ⇄ res ✓ exec.approval.list 137ms conn=eeb086d9…cc73 id=7d121c94…3961
+2026-05-17T12:24:59.871-05:00 [telegram] Inbound message telegram:5671500122 -> @Mac_Daddy_Claw_Bot (direct, 6 chars)
+2026-05-17T12:25:08.506-05:00 [ws] ⇄ res ✓ health 73ms conn=baf689e7…42ff id=1D7F0309…A5EB
+2026-05-17T12:25:24.419-05:00 [ws] ⇄ res ✓ health 72ms conn=baf689e7…42ff id=EDCB3D8F…9CFA
+2026-05-17T12:35:49.571-05:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, models.providers.kimi.apiKey)
+2026-05-17T12:35:49.653-05:00 [reload] config hot reload applied (models.providers.kimi.apiKey)
+2026-05-17T12:35:55.084-05:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, models.providers.nvidia.apiKey)
+2026-05-17T12:35:55.172-05:00 [reload] config hot reload applied (models.providers.nvidia.apiKey)
+2026-05-17T12:43:29.527-05:00 [gateway] signal SIGTERM received
+2026-05-17T12:43:29.548-05:00 [gateway] received SIGTERM; restarting
+2026-05-17T12:43:29.567-05:00 [shutdown] started: gateway restarting
+2026-05-17T12:43:41.613-05:00 [gateway] loading configuration…
+2026-05-17T12:43:41.937-05:00 [gateway] resolving authentication…
+2026-05-17T12:43:41.942-05:00 [gateway] starting...
+2026-05-17T12:43:43.425-05:00 [gateway] starting HTTP server...
+2026-05-17T12:43:43.450-05:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-05-17T12:43:43.782-05:00 [gateway] agent model: amazon-bedrock/global.anthropic.claude-opus-4-7 (thinking=medium, fast=off)
+2026-05-17T12:43:43.782-05:00 [gateway] http server listening (2 plugins: memory-core, telegram; 1.8s)
+2026-05-17T12:43:43.783-05:00 [gateway] log file: /tmp/openclaw/openclaw-2026-05-17.log
+2026-05-17T12:43:43.796-05:00 [gateway] starting channels and sidecars...
+2026-05-17T12:43:43.840-05:00 [hooks] loaded 5 internal hook handlers
+2026-05-17T12:43:43.893-05:00 [gateway] ready
+2026-05-17T12:43:43.896-05:00 [heartbeat] started
+2026-05-17T12:43:44.804-05:00 [telegram] [default] starting provider (@Mac_Daddy_Claw_Bot)
+2026-05-17T12:43:45.010-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-17T12:43:45.188-05:00 [ws] ⇄ res ✓ exec.approval.list 136ms conn=0fc56caf…5d0d id=5e8e01f4…c40d
+2026-05-17T12:44:11.110-05:00 [telegram] Inbound message telegram:5671500122 -> @Mac_Daddy_Claw_Bot (direct, 6 chars)
+2026-05-17T12:44:24.782-05:00 [telegram] sendMessage ok chat=5671500122 message=8
+2026-05-17T12:44:27.542-05:00 [ws] ⇄ res ✓ health 73ms conn=a97a029d…9a03 id=281AA5B6…7B48
+2026-05-17T12:44:44.422-05:00 [ws] ⇄ res ✓ health 62ms conn=a97a029d…9a03 id=BD52FC3A…B8DB
+2026-05-17T12:45:00.968-05:00 [telegram] Inbound message telegram:5671500122 -> @Mac_Daddy_Claw_Bot (direct, 6 chars)
+2026-05-17T12:45:31.169-05:00 [telegram] Inbound message telegram:5671500122 -> @Mac_Daddy_Claw_Bot (direct, 35 chars)
+2026-05-17T12:45:53.514-05:00 [telegram] sendMessage ok chat=5671500122 message=14
+2026-05-17T12:46:09.215-05:00 [telegram] Inbound message telegram:5671500122 -> @Mac_Daddy_Claw_Bot (direct, 10 chars)
+2026-05-17T12:46:55.799-05:00 [telegram] Inbound message telegram:5671500122 -> @Mac_Daddy_Claw_Bot (direct, 37 chars)
+2026-05-17T12:48:18.458-05:00 [telegram] Inbound message telegram:5671500122 -> @Mac_Daddy_Claw_Bot (direct, 66 chars)
+2026-05-17T12:49:20.602-05:00 [telegram] Inbound message telegram:5671500122 -> @Mac_Daddy_Claw_Bot (direct, 5 chars)
+2026-05-17T12:50:59.883-05:00 [telegram] Inbound message telegram:5671500122 -> @Mac_Daddy_Claw_Bot (direct, 53 chars)
+2026-05-17T12:54:57.489-05:00 [telegram] Inbound message telegram:5671500122 -> @Mac_Daddy_Claw_Bot (direct, 115 chars)
+2026-05-17T13:13:45.510-05:00 [telegram] Inbound message telegram:5671500122 -> @Mac_Daddy_Claw_Bot (direct, 5 chars)
+2026-05-17T13:17:00.530-05:00 [telegram] Inbound message telegram:5671500122 -> @Mac_Daddy_Claw_Bot (direct, 24 chars)
+2026-05-17T13:18:07.216-05:00 [telegram] Inbound message telegram:5671500122 -> @Mac_Daddy_Claw_Bot (direct, 8 chars)
+2026-05-17T13:20:50.276-05:00 [telegram] Inbound message telegram:5671500122 -> @Mac_Daddy_Claw_Bot (direct, 14 chars)
+2026-05-17T13:41:44.529-05:00 [ws] ⇄ res ✓ health 73ms conn=a97a029d…9a03 id=0BC16FA7…5223
+2026-05-17T14:13:44.159-05:00 [gateway] signal SIGTERM received
+2026-05-17T14:13:44.177-05:00 [gateway] received SIGTERM; restarting
+2026-05-17T14:13:44.199-05:00 [shutdown] started: gateway restarting
+2026-05-17T14:13:56.274-05:00 [gateway] loading configuration…
+2026-05-17T14:13:56.606-05:00 [gateway] resolving authentication…
+2026-05-17T14:13:56.611-05:00 [gateway] starting...
+2026-05-17T14:13:58.114-05:00 [gateway] starting HTTP server...
+2026-05-17T14:13:58.138-05:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-05-17T14:13:58.467-05:00 [gateway] agent model: amazon-bedrock/global.anthropic.claude-opus-4-7 (thinking=medium, fast=off)
+2026-05-17T14:13:58.468-05:00 [gateway] http server listening (2 plugins: memory-core, telegram; 1.9s)
+2026-05-17T14:13:58.469-05:00 [gateway] log file: /tmp/openclaw/openclaw-2026-05-17.log
+2026-05-17T14:13:58.485-05:00 [gateway] starting channels and sidecars...
+2026-05-17T14:13:58.535-05:00 [hooks] loaded 5 internal hook handlers
+2026-05-17T14:13:58.588-05:00 [gateway] ready
+2026-05-17T14:13:58.591-05:00 [heartbeat] started
+2026-05-17T14:13:59.115-05:00 [telegram] [default] starting provider (@Mac_Daddy_Claw_Bot)
+2026-05-17T14:13:59.278-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-17T14:13:59.437-05:00 [ws] ⇄ res ✓ exec.approval.list 135ms conn=25af2089…fede id=f6c9f1ea…acc5
+2026-05-17T14:14:41.796-05:00 [ws] ⇄ res ✓ health 73ms conn=71e261bd…e63b id=F10DC79B…3EDF
+2026-05-17T14:17:28.039-05:00 [gateway] signal SIGTERM received
+2026-05-17T14:17:28.058-05:00 [gateway] received SIGTERM; restarting
+2026-05-17T14:17:28.082-05:00 [shutdown] started: gateway restarting
+2026-05-17T14:17:40.293-05:00 [gateway] loading configuration…
+2026-05-17T14:17:40.618-05:00 [gateway] resolving authentication…
+2026-05-17T14:17:40.622-05:00 [gateway] starting...
+2026-05-17T14:17:42.022-05:00 [gateway] starting HTTP server...
+2026-05-17T14:17:42.043-05:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-05-17T14:17:42.345-05:00 [gateway] agent model: amazon-bedrock/global.anthropic.claude-opus-4-7 (thinking=medium, fast=off)
+2026-05-17T14:17:42.346-05:00 [gateway] http server listening (2 plugins: memory-core, telegram; 1.7s)
+2026-05-17T14:17:42.348-05:00 [gateway] log file: /tmp/openclaw/openclaw-2026-05-17.log
+2026-05-17T14:17:42.360-05:00 [gateway] starting channels and sidecars...
+2026-05-17T14:17:42.441-05:00 [hooks] loaded 5 internal hook handlers
+2026-05-17T14:17:42.496-05:00 [gateway] ready
+2026-05-17T14:17:42.499-05:00 [heartbeat] started
+2026-05-17T14:17:42.825-05:00 [ws] ⇄ res ✓ health 164ms conn=1f3aa0c3…1518 id=26EAE35B…4BCC
+2026-05-17T14:17:43.185-05:00 [telegram] [default] starting provider (@Mac_Daddy_Claw_Bot)
+2026-05-17T14:17:43.360-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-17T14:17:46.253-05:00 [gateway] signal SIGTERM received
+2026-05-17T14:17:46.268-05:00 [gateway] received SIGTERM; restarting
+2026-05-17T14:17:46.285-05:00 [shutdown] started: gateway restarting
+2026-05-17T14:18:00.958-05:00 [gateway] loading configuration…
+2026-05-17T14:18:01.280-05:00 [gateway] resolving authentication…
+2026-05-17T14:18:01.285-05:00 [gateway] starting...
+2026-05-17T14:18:02.455-05:00 [gateway] starting HTTP server...
+2026-05-17T14:18:02.472-05:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-05-17T14:18:02.748-05:00 [gateway] agent model: amazon-bedrock/global.anthropic.claude-opus-4-7 (thinking=medium, fast=off)
+2026-05-17T14:18:02.749-05:00 [gateway] http server listening (2 plugins: memory-core, telegram; 1.5s)
+2026-05-17T14:18:02.750-05:00 [gateway] log file: /tmp/openclaw/openclaw-2026-05-17.log
+2026-05-17T14:18:02.765-05:00 [gateway] starting channels and sidecars...
+2026-05-17T14:18:02.839-05:00 [hooks] loaded 5 internal hook handlers
+2026-05-17T14:18:02.899-05:00 [gateway] ready
+2026-05-17T14:18:02.903-05:00 [heartbeat] started
+2026-05-17T14:18:03.412-05:00 [telegram] [default] starting provider (@Mac_Daddy_Claw_Bot)
+2026-05-17T14:18:03.576-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-17T14:18:03.718-05:00 [ws] ⇄ res ✓ exec.approval.list 132ms conn=fd5e970c…6398 id=bb23225f…e4aa
+2026-05-17T14:18:42.917-05:00 [ws] ⇄ res ✓ health 60ms conn=23a8cb0c…d90b id=5AAC96B1…7EE8
+2026-05-17T14:38:43.661-05:00 [ws] ⇄ res ✓ chat.history 112ms conn=23a8cb0c…d90b id=E1C03976…A07C
+2026-05-17T14:38:43.983-05:00 [ws] ⇄ res ✓ sessions.list 134ms conn=23a8cb0c…d90b id=A84893A2…644C
+2026-05-17T14:38:55.723-05:00 [ws] ⇄ res ✓ sessions.patch 59ms conn=23a8cb0c…d90b id=CF57BDF6…9DA9
+2026-05-17T14:39:36.615-05:00 [ws] ⇄ res ✓ chat.history 57ms conn=23a8cb0c…d90b id=21CA8008…1980
+2026-05-17T14:39:36.642-05:00 [ws] ⇄ res ✓ chat.history 81ms conn=23a8cb0c…d90b id=A170F8DD…E7FD
+2026-05-17T14:39:42.293-05:00 [ws] ⇄ res ✓ chat.history 51ms conn=23a8cb0c…d90b id=F530D5AC…A0AA
+2026-05-17T14:39:42.466-05:00 [ws] ⇄ res ✓ sessions.list 118ms conn=23a8cb0c…d90b id=FBFE0E66…63D8
+2026-05-17T14:39:52.706-05:00 [ws] ⇄ res ✓ chat.history 57ms conn=23a8cb0c…d90b id=F38B46DA…7AC2
+2026-05-17T14:39:52.837-05:00 [ws] ⇄ res ✓ sessions.list 77ms conn=23a8cb0c…d90b id=2C00D0F5…9466
+2026-05-17T14:39:55.256-05:00 [ws] ⇄ res ✓ sessions.patch 52ms conn=23a8cb0c…d90b id=1A18B3B1…8A03
+2026-05-17T14:39:56.596-05:00 [ws] ⇄ res ✓ sessions.list 77ms conn=23a8cb0c…d90b id=674D240F…1FDF
+2026-05-17T14:40:13.515-05:00 [ws] ⇄ res ✓ sessions.list 81ms conn=23a8cb0c…d90b id=5E9EACA5…903B
+2026-05-17T14:40:13.518-05:00 [ws] ⇄ res ✓ chat.history 85ms conn=23a8cb0c…d90b id=9E544558…6271
+2026-05-17T14:48:56.667-05:00 [ws] ⇄ res ✓ chat.history 59ms conn=23a8cb0c…d90b id=BD196BB9…9B13
+2026-05-17T14:54:31.922-05:00 [ws] ⇄ res ✓ chat.history 59ms conn=23a8cb0c…d90b id=148940DB…C97A
+2026-05-17T16:48:03.795-05:00 [ws] ⇄ res ✓ health 79ms cached=true conn=23a8cb0c…d90b id=F246A86E…CA9A
+2026-05-17T17:34:38.880-05:00 [ws] ⇄ res ✓ health 60ms conn=23a8cb0c…d90b id=D5C6A559…FAC9
+2026-05-17T17:34:38.881-05:00 [ws] ⇄ res ✓ health 61ms conn=23a8cb0c…d90b id=2B37C38E…E54C
+2026-05-17T17:34:38.882-05:00 [ws] ⇄ res ✓ health 62ms conn=23a8cb0c…d90b id=E4DFDF8B…D606
+2026-05-17T17:34:38.883-05:00 [ws] ⇄ res ✓ health 63ms conn=23a8cb0c…d90b id=45FE7AF1…8D66
+2026-05-17T17:34:38.884-05:00 [ws] ⇄ res ✓ node.list 65ms conn=23a8cb0c…d90b id=D9013E9D…4424
+2026-05-17T17:37:56.401-05:00 [ws] ⇄ res ✓ health 56ms conn=23a8cb0c…d90b id=D26E11FC…CC7F
+2026-05-17T18:04:36.091-05:00 [ws] ⇄ res ✓ health 53ms conn=23a8cb0c…d90b id=B658E67F…5A0A
+2026-05-17T18:04:36.092-05:00 [ws] ⇄ res ✓ health 54ms conn=23a8cb0c…d90b id=82619FCA…BF6A
+2026-05-17T18:04:36.092-05:00 [ws] ⇄ res ✓ health 55ms conn=23a8cb0c…d90b id=5A1CFD36…BE60
+2026-05-17T18:04:36.093-05:00 [ws] ⇄ res ✓ health 56ms conn=23a8cb0c…d90b id=8C8AA144…7141
+2026-05-17T18:04:36.095-05:00 [ws] ⇄ res ✓ node.list 57ms conn=23a8cb0c…d90b id=7BD00582…E2F0
+2026-05-17T18:20:42.974-05:00 [ws] ⇄ res ✓ node.list 78ms conn=23a8cb0c…d90b id=D9D4AF62…6F2F
+2026-05-17T18:36:15.083-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: stale-socket)
+2026-05-17T18:36:15.150-05:00 [ws] ⇄ res ✓ health 56ms conn=23a8cb0c…d90b id=0D36407E…E20D
+2026-05-17T18:36:15.151-05:00 [ws] ⇄ res ✓ health 57ms conn=23a8cb0c…d90b id=7213A0F0…531C
+2026-05-17T18:36:15.151-05:00 [ws] ⇄ res ✓ health 58ms conn=23a8cb0c…d90b id=97F24532…83E6
+2026-05-17T18:36:15.152-05:00 [ws] ⇄ res ✓ health 58ms conn=23a8cb0c…d90b id=96DBA2AE…FA03
+2026-05-17T18:36:15.154-05:00 [ws] ⇄ res ✓ node.list 60ms conn=23a8cb0c…d90b id=0C65288C…B126
+2026-05-17T18:37:42.975-05:00 [telegram] [default] auto-restart attempt 1/10 in 5s
+2026-05-17T18:37:48.303-05:00 [telegram] [default] starting provider (@Mac_Daddy_Claw_Bot)
+2026-05-17T18:37:48.378-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-17T18:42:45.136-05:00 [ws] ⇄ res ✓ node.list 80ms conn=23a8cb0c…d90b id=CD6FD6E6…C65E
+2026-05-17T18:43:45.241-05:00 [ws] ⇄ res ✓ health 53ms conn=23a8cb0c…d90b id=9CDE886A…2AA5
+2026-05-18T00:59:03.715-05:00 [ws] ⇄ res ✓ health 57ms cached=true conn=23a8cb0c…d90b id=B1B3D1C8…8C9E
+2026-05-18T02:06:03.891-05:00 [ws] ⇄ res ✓ health 72ms conn=23a8cb0c…d90b id=6854E7EE…1DAA
+2026-05-18T02:08:03.894-05:00 [ws] ⇄ res ✓ health 75ms conn=23a8cb0c…d90b id=FCEC36CE…47B2
+2026-05-18T02:15:03.917-05:00 [ws] ⇄ res ✓ health 69ms conn=23a8cb0c…d90b id=27E92F30…32EA
+2026-05-18T02:23:03.932-05:00 [ws] ⇄ res ✓ health 69ms conn=23a8cb0c…d90b id=C29C65E5…4B7F
+2026-05-18T02:25:03.942-05:00 [ws] ⇄ res ✓ health 72ms conn=23a8cb0c…d90b id=A3CD9B85…5151
+2026-05-18T02:31:03.947-05:00 [ws] ⇄ res ✓ health 69ms conn=23a8cb0c…d90b id=DA5F5BCC…19C1
+2026-05-18T02:35:03.965-05:00 [ws] ⇄ res ✓ health 76ms conn=23a8cb0c…d90b id=CB0DF52D…7C3D
+2026-05-18T02:40:03.967-05:00 [ws] ⇄ res ✓ health 72ms conn=23a8cb0c…d90b id=9F33ABC9…4C18
+2026-05-18T02:43:03.964-05:00 [ws] ⇄ res ✓ health 73ms conn=23a8cb0c…d90b id=9C9512FB…25A3
+2026-05-18T02:50:03.991-05:00 [ws] ⇄ res ✓ health 71ms conn=23a8cb0c…d90b id=A267F5B1…8E28
+2026-05-18T02:54:03.994-05:00 [ws] ⇄ res ✓ health 70ms conn=23a8cb0c…d90b id=9C3B818C…1CBC
+2026-05-18T02:56:03.998-05:00 [ws] ⇄ res ✓ health 75ms conn=23a8cb0c…d90b id=BC4D0E07…E791
+2026-05-18T03:05:03.929-05:00 [ws] ⇄ res ✓ health 72ms conn=23a8cb0c…d90b id=C98920A9…618F
+2026-05-18T03:09:03.928-05:00 [ws] ⇄ res ✓ health 68ms conn=23a8cb0c…d90b id=37199E6F…FA60
+2026-05-18T03:14:03.971-05:00 [ws] ⇄ res ✓ health 69ms conn=23a8cb0c…d90b id=85050151…1175
+2026-05-18T03:21:03.998-05:00 [ws] ⇄ res ✓ health 68ms conn=23a8cb0c…d90b id=40F87F88…E322
+2026-05-18T03:25:03.982-05:00 [ws] ⇄ res ✓ health 66ms conn=23a8cb0c…d90b id=E2B585A8…7A75
+2026-05-18T03:27:04.004-05:00 [ws] ⇄ res ✓ health 62ms conn=23a8cb0c…d90b id=9CA5F265…BA12
+2026-05-18T03:33:04.007-05:00 [ws] ⇄ res ✓ health 67ms conn=23a8cb0c…d90b id=8F43AF0F…4D79
+2026-05-18T03:36:33.995-05:00 [ws] ⇄ res ✓ health 55ms cached=true conn=23a8cb0c…d90b id=EB43C2E4…2B47
+2026-05-18T03:37:03.997-05:00 [ws] ⇄ res ✓ health 70ms conn=23a8cb0c…d90b id=9AFCD0C5…9641
+2026-05-18T03:41:04.028-05:00 [ws] ⇄ res ✓ health 75ms conn=23a8cb0c…d90b id=60B5A410…3123
+2026-05-18T03:43:04.027-05:00 [ws] ⇄ res ✓ health 72ms conn=23a8cb0c…d90b id=CB9EE968…71E4
+2026-05-18T03:58:04.088-05:00 [ws] ⇄ res ✓ health 68ms conn=23a8cb0c…d90b id=93D5B4AA…DDD2
+2026-05-18T04:00:04.096-05:00 [ws] ⇄ res ✓ health 68ms conn=23a8cb0c…d90b id=00B9E926…6B17
+2026-05-18T04:03:04.105-05:00 [ws] ⇄ res ✓ health 70ms conn=23a8cb0c…d90b id=DBB7DDF1…9B01
+2026-05-18T04:13:04.135-05:00 [ws] ⇄ res ✓ health 72ms conn=23a8cb0c…d90b id=A14AC4B1…ED4A
+2026-05-18T04:20:04.145-05:00 [ws] ⇄ res ✓ health 71ms conn=23a8cb0c…d90b id=9560EFA8…17BF
+2026-05-18T04:26:04.177-05:00 [ws] ⇄ res ✓ health 73ms conn=23a8cb0c…d90b id=8E0555BF…4597
+2026-05-18T04:29:04.174-05:00 [ws] ⇄ res ✓ health 72ms conn=23a8cb0c…d90b id=5988DBDA…C7AC
+2026-05-18T04:32:04.156-05:00 [ws] ⇄ res ✓ health 70ms conn=23a8cb0c…d90b id=7CF2907D…6B05
+2026-05-18T04:37:04.168-05:00 [ws] ⇄ res ✓ health 68ms conn=23a8cb0c…d90b id=911DFF58…727B
+2026-05-18T04:41:04.206-05:00 [ws] ⇄ res ✓ health 66ms conn=23a8cb0c…d90b id=15F4BDCD…86FF
+2026-05-18T04:44:04.226-05:00 [ws] ⇄ res ✓ health 72ms conn=23a8cb0c…d90b id=5B0D6A9F…2843
+2026-05-18T04:53:04.217-05:00 [ws] ⇄ res ✓ health 72ms conn=23a8cb0c…d90b id=FDD33F53…814C
+2026-05-18T04:58:04.217-05:00 [ws] ⇄ res ✓ health 69ms conn=23a8cb0c…d90b id=D1BFB1A1…0813
+2026-05-18T05:00:04.211-05:00 [ws] ⇄ res ✓ health 68ms conn=23a8cb0c…d90b id=A31E0BED…62A1
+2026-05-18T05:03:04.226-05:00 [ws] ⇄ res ✓ health 63ms conn=23a8cb0c…d90b id=ECFE1FE1…1659
+2026-05-18T05:08:04.235-05:00 [ws] ⇄ res ✓ health 74ms conn=23a8cb0c…d90b id=CBD5072E…F516
+2026-05-18T05:13:04.233-05:00 [ws] ⇄ res ✓ health 73ms conn=23a8cb0c…d90b id=88302F47…7C11
+2026-05-18T05:15:04.242-05:00 [ws] ⇄ res ✓ health 74ms conn=23a8cb0c…d90b id=90F09569…8971
+2026-05-18T05:19:04.252-05:00 [ws] ⇄ res ✓ health 74ms conn=23a8cb0c…d90b id=A55283A4…8C64
+2026-05-18T05:21:04.211-05:00 [ws] ⇄ res ✓ health 70ms conn=23a8cb0c…d90b id=A8F537ED…4124
+2026-05-18T05:30:04.193-05:00 [ws] ⇄ res ✓ health 72ms conn=23a8cb0c…d90b id=3926D89F…B6B3
+2026-05-18T05:35:04.221-05:00 [ws] ⇄ res ✓ health 66ms conn=23a8cb0c…d90b id=519CAD46…7221
+2026-05-18T05:40:04.215-05:00 [ws] ⇄ res ✓ health 73ms conn=23a8cb0c…d90b id=70D75D8B…5F88
+2026-05-18T05:45:04.223-05:00 [ws] ⇄ res ✓ health 72ms conn=23a8cb0c…d90b id=4861AD44…466B
+2026-05-18T05:51:04.228-05:00 [ws] ⇄ res ✓ health 54ms cached=true conn=23a8cb0c…d90b id=1D1F572E…7345
+2026-05-18T05:53:04.236-05:00 [ws] ⇄ res ✓ health 73ms conn=23a8cb0c…d90b id=2A0B23B5…3C80
+2026-05-18T06:02:04.249-05:00 [ws] ⇄ res ✓ health 73ms conn=23a8cb0c…d90b id=F40F2A70…3471
+2026-05-18T06:23:04.302-05:00 [ws] ⇄ res ✓ health 73ms conn=23a8cb0c…d90b id=6AD2BA42…9F96
+2026-05-18T06:25:04.312-05:00 [ws] ⇄ res ✓ health 74ms conn=23a8cb0c…d90b id=D67C9C1C…E3A0
+2026-05-18T06:29:04.315-05:00 [ws] ⇄ res ✓ health 73ms conn=23a8cb0c…d90b id=F882E5DF…1D82
+2026-05-18T06:32:04.326-05:00 [ws] ⇄ res ✓ health 74ms conn=23a8cb0c…d90b id=FBBEEF2B…D2C6
+2026-05-18T06:41:04.397-05:00 [ws] ⇄ res ✓ health 66ms conn=23a8cb0c…d90b id=3DA92C3D…AD00
+2026-05-18T06:46:04.419-05:00 [ws] ⇄ res ✓ health 74ms conn=23a8cb0c…d90b id=D0D1FE9B…013A
+2026-05-18T06:48:04.417-05:00 [ws] ⇄ res ✓ health 68ms conn=23a8cb0c…d90b id=1A13A57E…7F64
+2026-05-18T06:53:04.399-05:00 [ws] ⇄ res ✓ health 65ms conn=23a8cb0c…d90b id=AA6B2796…E068
+2026-05-18T06:57:04.429-05:00 [ws] ⇄ res ✓ health 72ms conn=23a8cb0c…d90b id=BAC58955…4959
+2026-05-18T07:06:04.460-05:00 [ws] ⇄ res ✓ health 64ms conn=23a8cb0c…d90b id=ECB08151…676D
+2026-05-18T07:09:04.483-05:00 [ws] ⇄ res ✓ health 74ms conn=23a8cb0c…d90b id=5F6DEB48…2298
+2026-05-18T07:12:04.493-05:00 [ws] ⇄ res ✓ health 73ms conn=23a8cb0c…d90b id=C4D2FE39…F7ED
+2026-05-18T07:22:04.501-05:00 [ws] ⇄ res ✓ health 66ms conn=23a8cb0c…d90b id=8FE5CE6D…C808
+2026-05-18T07:42:04.659-05:00 [ws] ⇄ res ✓ health 76ms conn=23a8cb0c…d90b id=4878B9BD…6312
+2026-05-18T07:53:04.727-05:00 [ws] ⇄ res ✓ health 76ms conn=23a8cb0c…d90b id=CCDE7B47…1EAF
+2026-05-18T08:07:04.775-05:00 [ws] ⇄ res ✓ health 74ms conn=23a8cb0c…d90b id=C82629D4…1046
+2026-05-18T08:15:04.811-05:00 [ws] ⇄ res ✓ health 77ms conn=23a8cb0c…d90b id=3C7C6D56…919B
+2026-05-18T08:15:04.813-05:00 [ws] ⇄ res ✓ health 81ms conn=23a8cb0c…d90b id=9F692F97…D3B5
+2026-05-18T08:20:04.817-05:00 [ws] ⇄ res ✓ health 74ms conn=23a8cb0c…d90b id=62067CF3…5814
+2026-05-18T09:07:04.979-05:00 [ws] ⇄ res ✓ health 68ms conn=23a8cb0c…d90b id=36B7E607…6CEA
+2026-05-18T09:09:04.990-05:00 [ws] ⇄ res ✓ health 73ms conn=23a8cb0c…d90b id=5C639F40…F265
+2026-05-18T09:33:05.059-05:00 [ws] ⇄ res ✓ health 70ms conn=23a8cb0c…d90b id=34B53BC8…DFCE
+2026-05-18T09:36:05.069-05:00 [ws] ⇄ res ✓ health 70ms conn=23a8cb0c…d90b id=56DD3FAC…E196
+2026-05-18T10:10:05.021-05:00 [ws] ⇄ res ✓ health 72ms conn=23a8cb0c…d90b id=F4E18892…5E22
+2026-05-18T10:27:05.013-05:00 [ws] ⇄ res ✓ health 70ms conn=23a8cb0c…d90b id=BB39EF28…5C17
+2026-05-18T12:35:16.533-05:00 [ws] ⇄ res ✓ system-event 79ms conn=23a8cb0c…d90b id=7BF9D74D…8C7D
+2026-05-18T12:35:16.551-05:00 [ws] ⇄ res ✓ health 110ms conn=23a8cb0c…d90b id=BCE3A973…B4AD
+2026-05-18T12:35:16.552-05:00 [ws] ⇄ res ✓ health 111ms conn=23a8cb0c…d90b id=F617B232…1C48
+2026-05-18T12:35:16.553-05:00 [ws] ⇄ res ✓ health 112ms conn=23a8cb0c…d90b id=09EE98D7…20E5
+2026-05-18T12:35:16.553-05:00 [ws] ⇄ res ✓ health 113ms conn=23a8cb0c…d90b id=E593E508…0B74
+2026-05-18T12:35:16.556-05:00 [ws] ⇄ res ✓ node.list 116ms conn=23a8cb0c…d90b id=BDCDDF79…30DC
+2026-05-18T12:39:17.134-05:00 [ws] ⇄ res ✓ health 76ms conn=23a8cb0c…d90b id=509E7EFE…050C
+2026-05-18T12:39:19.693-05:00 [telegram] [default] auto-restart attempt 2/10 in 10s
+2026-05-18T12:39:31.900-05:00 [telegram] [default] starting provider
+2026-05-18T12:39:31.965-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-18T12:39:32.208-05:00 [telegram] [default] auto-restart attempt 3/10 in 21s
+2026-05-18T12:39:46.536-05:00 [ws] ⇄ res ✓ health 75ms conn=23a8cb0c…d90b id=E46AB20B…8DEE
+2026-05-18T12:39:55.206-05:00 [telegram] [default] starting provider
+2026-05-18T12:39:55.269-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-18T12:39:55.444-05:00 [telegram] [default] auto-restart attempt 4/10 in 40s
+2026-05-18T12:40:16.439-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: stopped)
+2026-05-18T12:40:17.245-05:00 [ws] ⇄ res ✓ health 72ms conn=23a8cb0c…d90b id=65591D6B…B49C
+2026-05-18T12:40:37.768-05:00 [telegram] [default] starting provider
+2026-05-18T12:40:37.833-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-18T12:40:37.983-05:00 [telegram] [default] auto-restart attempt 1/10 in 5s
+2026-05-18T12:40:45.164-05:00 [telegram] [default] starting provider
+2026-05-18T12:40:45.231-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-18T12:40:45.381-05:00 [telegram] [default] auto-restart attempt 2/10 in 10s
+2026-05-18T12:40:46.562-05:00 [ws] ⇄ res ✓ health 73ms conn=23a8cb0c…d90b id=9105520F…1D8E
+2026-05-18T12:40:57.889-05:00 [telegram] [default] starting provider
+2026-05-18T12:40:57.957-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-18T12:40:58.106-05:00 [telegram] [default] auto-restart attempt 3/10 in 22s
+2026-05-18T12:41:16.565-05:00 [ws] ⇄ res ✓ health 53ms conn=23a8cb0c…d90b id=90510F54…D718
+2026-05-18T12:41:17.391-05:00 [ws] ⇄ res ✓ health 72ms conn=23a8cb0c…d90b id=9B2EC0F9…F8D9
+2026-05-18T12:41:21.753-05:00 [telegram] [default] starting provider
+2026-05-18T12:41:21.819-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-18T12:41:21.969-05:00 [telegram] [default] auto-restart attempt 4/10 in 44s
+2026-05-18T12:41:46.567-05:00 [ws] ⇄ res ✓ health 76ms conn=23a8cb0c…d90b id=DEB0FF81…95D2
+2026-05-18T12:42:07.934-05:00 [telegram] [default] starting provider
+2026-05-18T12:42:07.996-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-18T12:42:08.149-05:00 [telegram] [default] auto-restart attempt 5/10 in 87s
+2026-05-18T12:42:16.565-05:00 [ws] ⇄ res ✓ health 59ms conn=23a8cb0c…d90b id=FEF05133…D8B9
+2026-05-18T12:42:17.698-05:00 [ws] ⇄ res ✓ health 74ms conn=23a8cb0c…d90b id=9696A3E4…D1D2
+2026-05-18T12:43:37.190-05:00 [telegram] [default] starting provider
+2026-05-18T12:43:37.253-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-18T12:50:16.453-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: disconnected)
+2026-05-18T12:50:31.477-05:00 [telegram] [default] auto-restart attempt 1/10 in 5s
+2026-05-18T12:50:38.589-05:00 [telegram] [default] starting provider
+2026-05-18T12:50:38.659-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-18T12:53:46.598-05:00 [ws] ⇄ res ✓ health 71ms conn=23a8cb0c…d90b id=B79DF0C8…02F7
+2026-05-18T14:35:16.896-05:00 [ws] ⇄ res ✓ health 56ms cached=true conn=23a8cb0c…d90b id=5D861AFE…D68C
+2026-05-18T14:40:16.902-05:00 [ws] ⇄ res ✓ health 51ms cached=true conn=23a8cb0c…d90b id=2934319D…8702
+2026-05-18T16:30:17.107-05:00 [ws] ⇄ res ✓ health 51ms cached=true conn=23a8cb0c…d90b id=0CE7599A…2316
+2026-05-18T16:30:17.117-05:00 [ws] ⇄ res ✓ health 62ms cached=true conn=23a8cb0c…d90b id=C6FA17B5…DE63
+2026-05-18T17:16:17.264-05:00 [ws] ⇄ res ✓ health 56ms cached=true conn=23a8cb0c…d90b id=1F5C7DAD…9442
+2026-05-18T18:55:17.387-05:00 [ws] ⇄ res ✓ health 54ms conn=23a8cb0c…d90b id=FB8769DD…FD38
+2026-05-18T18:58:17.388-05:00 [ws] ⇄ res ✓ health 54ms conn=23a8cb0c…d90b id=92F809B9…16CE
+2026-05-18T19:00:17.407-05:00 [ws] ⇄ res ✓ health 62ms conn=23a8cb0c…d90b id=4EB1CF67…E857
+2026-05-18T19:02:17.411-05:00 [ws] ⇄ res ✓ health 59ms conn=23a8cb0c…d90b id=3CF305A9…42A6
+2026-05-18T19:07:17.394-05:00 [ws] ⇄ res ✓ health 71ms conn=23a8cb0c…d90b id=64828CEE…E2BE
+2026-05-18T19:12:17.407-05:00 [ws] ⇄ res ✓ health 62ms conn=23a8cb0c…d90b id=E55053B0…3D05
+2026-05-18T19:14:17.423-05:00 [ws] ⇄ res ✓ health 68ms conn=23a8cb0c…d90b id=396C79B7…1A82
+2026-05-18T19:23:17.433-05:00 [ws] ⇄ res ✓ health 68ms conn=23a8cb0c…d90b id=907F0922…EE34
+2026-05-18T19:25:17.443-05:00 [ws] ⇄ res ✓ health 73ms conn=23a8cb0c…d90b id=0E39A21C…0885
+2026-05-18T19:29:17.441-05:00 [ws] ⇄ res ✓ health 71ms conn=23a8cb0c…d90b id=E2D88282…C5FE
+2026-05-18T19:31:17.419-05:00 [ws] ⇄ res ✓ health 60ms conn=23a8cb0c…d90b id=54C238C8…988C
+2026-05-18T19:39:17.505-05:00 [ws] ⇄ res ✓ health 59ms conn=23a8cb0c…d90b id=D85FE3E3…2894
+2026-05-18T19:45:17.541-05:00 [ws] ⇄ res ✓ health 73ms conn=23a8cb0c…d90b id=C91BB906…E682
+2026-05-18T19:49:17.531-05:00 [ws] ⇄ res ✓ health 70ms conn=23a8cb0c…d90b id=9FB74B80…C060
+2026-05-18T19:53:17.550-05:00 [ws] ⇄ res ✓ health 65ms conn=23a8cb0c…d90b id=FEAE8BA9…68DE
+2026-05-18T19:56:17.570-05:00 [ws] ⇄ res ✓ health 74ms conn=23a8cb0c…d90b id=8337A282…B93D
+2026-05-18T20:09:17.529-05:00 [ws] ⇄ res ✓ health 51ms cached=true conn=23a8cb0c…d90b id=9FB98A32…E05A
+2026-05-18T20:11:17.528-05:00 [ws] ⇄ res ✓ health 71ms conn=23a8cb0c…d90b id=C051A88B…7431
+2026-05-18T20:11:20.216-05:00 [ws] ⇄ res ✓ health 68ms conn=23a8cb0c…d90b id=AF6378D4…7576
+2026-05-18T20:13:17.535-05:00 [ws] ⇄ res ✓ health 52ms cached=true conn=23a8cb0c…d90b id=C1BCF327…DFFC
+2026-05-18T20:13:17.547-05:00 [ws] ⇄ res ✓ health 64ms cached=true conn=23a8cb0c…d90b id=2AF880A0…5DBA
+2026-05-18T20:25:17.544-05:00 [ws] ⇄ res ✓ health 76ms conn=23a8cb0c…d90b id=D619EAAE…5FD8
+2026-05-18T20:27:17.553-05:00 [ws] ⇄ res ✓ health 73ms conn=23a8cb0c…d90b id=F35C53D1…148D
+2026-05-18T20:30:17.632-05:00 [ws] ⇄ res ✓ health 56ms conn=23a8cb0c…d90b id=FFC9474B…84F4
+2026-05-18T20:31:17.539-05:00 [ws] ⇄ res ✓ health 54ms cached=true conn=23a8cb0c…d90b id=5701D9E6…6FAF
+2026-05-18T20:31:17.549-05:00 [ws] ⇄ res ✓ health 65ms cached=true conn=23a8cb0c…d90b id=5727DB55…5B98
+2026-05-18T20:34:17.539-05:00 [ws] ⇄ res ✓ health 58ms conn=23a8cb0c…d90b id=DCCA8A5B…8B19
+2026-05-18T20:37:17.565-05:00 [ws] ⇄ res ✓ health 75ms conn=23a8cb0c…d90b id=722EA839…F66B
+2026-05-18T20:42:17.558-05:00 [ws] ⇄ res ✓ health 71ms conn=23a8cb0c…d90b id=0D5CD13C…2C34
+2026-05-18T20:44:06.885-05:00 [reload] config change detected; evaluating reload (mcp)
+2026-05-18T20:44:06.951-05:00 [reload] config hot reload applied (mcp)
+2026-05-18T20:45:16.991-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: stale-socket)
+2026-05-18T20:45:24.298-05:00 [ws] ⇄ res ✓ health 74ms conn=23a8cb0c…d90b id=F2B127C1…683A
+2026-05-18T20:45:32.031-05:00 [telegram] [default] auto-restart attempt 1/10 in 5s
+2026-05-18T20:45:37.343-05:00 [telegram] [default] starting provider (@Mac_Daddy_Claw_Bot)
+2026-05-18T20:45:37.418-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-18T20:45:38.559-05:00 [telegram] sendMessage ok chat=5671500122 message=41
+2026-05-18T20:48:17.562-05:00 [ws] ⇄ res ✓ health 75ms conn=23a8cb0c…d90b id=C595F435…64A1
+2026-05-18T20:51:17.557-05:00 [ws] ⇄ res ✓ health 74ms conn=23a8cb0c…d90b id=E83C86A9…29CC
+2026-05-18T20:58:17.618-05:00 [ws] ⇄ res ✓ health 58ms cached=true conn=23a8cb0c…d90b id=FB81E4AA…B7BE
+2026-05-18T20:58:17.629-05:00 [ws] ⇄ res ✓ health 71ms cached=true conn=23a8cb0c…d90b id=B7E78264…35CD
+2026-05-18T20:59:17.636-05:00 [ws] ⇄ res ✓ health 77ms conn=23a8cb0c…d90b id=42E99EC8…64D2
+2026-05-18T21:09:17.656-05:00 [ws] ⇄ res ✓ health 77ms conn=23a8cb0c…d90b id=1EFA66B2…2611
+2026-05-18T21:15:17.618-05:00 [ws] ⇄ res ✓ health 74ms conn=23a8cb0c…d90b id=5A88E260…A052
+2026-05-18T21:28:17.679-05:00 [ws] ⇄ res ✓ health 73ms conn=23a8cb0c…d90b id=F8F63E91…B170
+2026-05-18T21:33:23.594-05:00 [ws] ⇄ res ✓ system-event 64ms conn=23a8cb0c…d90b id=D7BB0B9F…0540
+2026-05-18T21:33:23.629-05:00 [ws] ⇄ res ✓ health 99ms conn=23a8cb0c…d90b id=022DE3C5…E518
+2026-05-18T21:33:23.631-05:00 [ws] ⇄ res ✓ health 101ms conn=23a8cb0c…d90b id=0888A66B…574A
+2026-05-18T21:33:23.631-05:00 [ws] ⇄ res ✓ health 102ms conn=23a8cb0c…d90b id=E61CE150…0DC7
+2026-05-18T21:33:23.632-05:00 [ws] ⇄ res ✓ health 103ms conn=23a8cb0c…d90b id=8DF80968…7825
+2026-05-18T21:33:23.635-05:00 [ws] ⇄ res ✓ node.list 105ms conn=23a8cb0c…d90b id=46482DE1…1576
+2026-05-18T21:50:37.362-05:00 [ws] ⇄ res ✓ health 66ms conn=23a8cb0c…d90b id=411D0D76…2671
+2026-05-18T21:50:37.363-05:00 [ws] ⇄ res ✓ health 66ms conn=23a8cb0c…d90b id=5C18DEA3…4E03
+2026-05-18T21:50:37.364-05:00 [ws] ⇄ res ✓ health 67ms conn=23a8cb0c…d90b id=8F557A78…0F20
+2026-05-18T21:50:37.365-05:00 [ws] ⇄ res ✓ health 68ms conn=23a8cb0c…d90b id=1524AE99…6A4E
+2026-05-18T21:50:37.370-05:00 [ws] ⇄ res ✓ node.list 74ms conn=23a8cb0c…d90b id=E810C3C2…DF19
+2026-05-18T22:08:14.252-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: stale-socket)
+2026-05-18T22:08:14.367-05:00 [ws] ⇄ res ✓ health 53ms conn=23a8cb0c…d90b id=B91FBFD1…8FA8
+2026-05-18T22:08:14.367-05:00 [ws] ⇄ res ✓ health 54ms conn=23a8cb0c…d90b id=5B1B6352…3AF2
+2026-05-18T22:08:14.368-05:00 [ws] ⇄ res ✓ health 54ms conn=23a8cb0c…d90b id=651B2194…7866
+2026-05-18T22:08:14.370-05:00 [ws] ⇄ res ✓ node.list 56ms conn=23a8cb0c…d90b id=3EF7D38F…16EE
+2026-05-18T22:25:50.325-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: stopped)
+2026-05-18T22:25:50.386-05:00 [ws] ⇄ res ✓ system-event 51ms conn=23a8cb0c…d90b id=765E5E23…BD9C
+2026-05-18T22:25:50.410-05:00 [ws] ⇄ res ✓ health 75ms conn=23a8cb0c…d90b id=2E7E1A02…9784
+2026-05-18T22:25:50.411-05:00 [ws] ⇄ res ✓ health 77ms conn=23a8cb0c…d90b id=E01AD206…F785
+2026-05-18T22:25:50.412-05:00 [ws] ⇄ res ✓ health 78ms conn=23a8cb0c…d90b id=0AF757D8…376F
+2026-05-18T22:25:50.413-05:00 [ws] ⇄ res ✓ health 79ms conn=23a8cb0c…d90b id=4DE72942…2582
+2026-05-18T22:25:50.415-05:00 [telegram] [default] auto-restart attempt 1/10 in 5s
+2026-05-18T22:25:50.417-05:00 [ws] ⇄ res ✓ node.list 83ms conn=23a8cb0c…d90b id=4AA0CAAF…66DD
+2026-05-18T22:43:35.468-05:00 [ws] ⇄ res ✓ health 50ms conn=23a8cb0c…d90b id=06AB1BA1…D37F
+2026-05-18T22:43:35.469-05:00 [ws] ⇄ res ✓ health 50ms conn=23a8cb0c…d90b id=77548891…A22E
+2026-05-18T22:43:35.470-05:00 [ws] ⇄ res ✓ health 51ms conn=23a8cb0c…d90b id=2FFF17A7…6DC5
+2026-05-18T22:43:35.470-05:00 [ws] ⇄ res ✓ health 52ms conn=23a8cb0c…d90b id=3BB6394D…C4CE
+2026-05-18T22:43:35.508-05:00 [ws] ⇄ res ✓ node.list 89ms conn=23a8cb0c…d90b id=C4B29541…EF76
+2026-05-18T22:43:37.246-05:00 [telegram] [default] starting provider
+2026-05-18T22:43:37.310-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-18T23:00:30.281-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: disconnected)
+2026-05-18T23:00:30.392-05:00 [ws] ⇄ res ✓ health 63ms conn=23a8cb0c…d90b id=6B8DAC8A…7CBE
+2026-05-18T23:00:30.393-05:00 [ws] ⇄ res ✓ health 64ms conn=23a8cb0c…d90b id=CBAA7570…3D27
+2026-05-18T23:00:30.393-05:00 [ws] ⇄ res ✓ health 65ms conn=23a8cb0c…d90b id=27F016B3…B0A9
+2026-05-18T23:00:30.395-05:00 [ws] ⇄ res ✓ node.list 66ms conn=23a8cb0c…d90b id=8FE56199…1081
+2026-05-18T23:17:00.344-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: stopped)
+2026-05-18T23:17:00.399-05:00 [telegram] [default] auto-restart attempt 1/10 in 5s
+2026-05-18T23:17:00.401-05:00 [ws] ⇄ res ✓ node.list 51ms conn=23a8cb0c…d90b id=B7080574…5248
+2026-05-18T23:30:26.272-05:00 [telegram] [default] starting provider
+2026-05-18T23:30:26.330-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-18T23:48:27.345-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: disconnected)
+2026-05-18T23:48:27.413-05:00 [ws] ⇄ res ✓ health 60ms conn=23a8cb0c…d90b id=AF8F98FD…4A19
+2026-05-18T23:48:27.414-05:00 [ws] ⇄ res ✓ health 61ms conn=23a8cb0c…d90b id=F51F5DCC…E32E
+2026-05-18T23:48:27.414-05:00 [ws] ⇄ res ✓ health 62ms conn=23a8cb0c…d90b id=48710910…D973
+2026-05-18T23:48:27.415-05:00 [ws] ⇄ res ✓ health 63ms conn=23a8cb0c…d90b id=C50532CD…E3A3
+2026-05-18T23:48:27.418-05:00 [ws] ⇄ res ✓ node.list 65ms conn=23a8cb0c…d90b id=E25ACBE3…9872
+2026-05-18T23:48:42.365-05:00 [telegram] [default] auto-restart attempt 1/10 in 5s
+2026-05-18T23:48:49.602-05:00 [telegram] [default] starting provider
+2026-05-18T23:48:49.665-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-19T00:08:22.371-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: disconnected)
+2026-05-19T00:20:43.517-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: stopped)
+2026-05-19T00:20:43.577-05:00 [telegram] [default] auto-restart attempt 1/10 in 5s
+2026-05-19T00:20:43.578-05:00 [ws] ⇄ res ✓ node.list 52ms conn=23a8cb0c…d90b id=D541AB10…BC5E
+2026-05-19T00:20:51.127-05:00 [telegram] [default] starting provider
+2026-05-19T00:20:51.195-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-19T00:23:44.274-05:00 [ws] ⇄ res ✓ health 340ms cached=true conn=23a8cb0c…d90b id=76751C97…CFF8
+2026-05-19T01:31:11.111-05:00 [gateway] signal SIGTERM received
+2026-05-19T01:31:11.129-05:00 [gateway] received SIGTERM; restarting
+2026-05-19T01:31:11.147-05:00 [shutdown] started: gateway restarting
+2026-05-19T01:31:24.870-05:00 [gateway] loading configuration…
+2026-05-19T01:31:25.205-05:00 [gateway] resolving authentication…
+2026-05-19T01:31:25.211-05:00 [gateway] starting...
+2026-05-19T01:31:26.816-05:00 [gateway] starting HTTP server...
+2026-05-19T01:31:26.843-05:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-05-19T01:31:27.158-05:00 [gateway] agent model: amazon-bedrock/global.anthropic.claude-opus-4-7 (thinking=medium, fast=off)
+2026-05-19T01:31:27.158-05:00 [gateway] http server listening (2 plugins: memory-core, telegram; 1.9s)
+2026-05-19T01:31:27.159-05:00 [gateway] log file: /tmp/openclaw/openclaw-2026-05-19.log
+2026-05-19T01:31:27.174-05:00 [gateway] starting channels and sidecars...
+2026-05-19T01:31:27.224-05:00 [hooks] loaded 5 internal hook handlers
+2026-05-19T01:31:27.279-05:00 [gateway] ready
+2026-05-19T01:31:27.283-05:00 [heartbeat] started
+2026-05-19T01:31:27.883-05:00 [ws] ⇄ res ✓ node.pair.list 143ms conn=d2b6b389…4a73 id=B9FF26E7…054D
+2026-05-19T01:31:28.083-05:00 [telegram] [default] starting provider (@Mac_Daddy_Claw_Bot)
+2026-05-19T01:31:28.240-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-19T01:33:22.539-05:00 [ws] ⇄ res ✗ sessions.resolve 1ms errorCode=INVALID_REQUEST errorMessage=No session found: current conn=2c62eb4b…d777 id=9e2ad2ec…ce1a
+2026-05-19T01:33:22.549-05:00 [ws] ⇄ res ✗ sessions.resolve 0ms errorCode=INVALID_REQUEST errorMessage=No session found: current conn=b7f093a5…b31f id=cb18a383…9008
+2026-05-19T01:33:22.995-05:00 [gateway] device pairing approved device=e0680d3ffd3d31327f889718f65ce8e4acf6163f4057ca3eaec38c9cf71d683a role=operator
+2026-05-19T01:33:40.348-05:00 [ws] ⇄ res ✗ sessions.resolve 0ms errorCode=INVALID_REQUEST errorMessage=No session found: current conn=670a28d5…abf8 id=15d715ed…0321
+2026-05-19T01:33:40.355-05:00 [ws] ⇄ res ✗ sessions.resolve 0ms errorCode=INVALID_REQUEST errorMessage=No session found: current conn=7a20e2ad…7d81 id=6543565c…885a
+2026-05-19T02:13:27.892-05:00 [ws] ⇄ res ✓ health 50ms cached=true conn=d2b6b389…4a73 id=90DC9CB9…6842
+2026-05-19T02:50:54.725-05:00 [telegram] [default] auto-restart attempt 1/10 in 5s
+2026-05-19T02:50:57.931-05:00 [ws] ⇄ res ✓ health 83ms conn=d2b6b389…4a73 id=B5F2EEB3…3A80
+2026-05-19T02:51:02.150-05:00 [telegram] [default] starting provider
+2026-05-19T02:51:02.240-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-19T02:51:02.469-05:00 [telegram] [default] auto-restart attempt 2/10 in 11s
+2026-05-19T02:51:06.077-05:00 [ws] ⇄ res ✓ health 71ms conn=d2b6b389…4a73 id=8DE9A8AB…F327
+2026-05-19T02:51:15.233-05:00 [telegram] [default] starting provider
+2026-05-19T02:51:15.313-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-19T02:51:15.535-05:00 [telegram] [default] auto-restart attempt 3/10 in 22s
+2026-05-19T02:51:26.939-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: stopped)
+2026-05-19T02:51:27.896-05:00 [ws] ⇄ res ✓ health 53ms conn=d2b6b389…4a73 id=3AA3F077…BCFD
+2026-05-19T02:51:37.793-05:00 [telegram] [default] starting provider (@Mac_Daddy_Claw_Bot)
+2026-05-19T02:51:37.873-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-19T02:52:27.904-05:00 [ws] ⇄ res ✓ health 55ms conn=d2b6b389…4a73 id=FF34E801…27F5
+2026-05-19T03:36:57.954-05:00 [ws] ⇄ res ✓ health 52ms cached=true conn=d2b6b389…4a73 id=68F6DD68…6084
+2026-05-19T05:21:28.689-05:00 [ws] ⇄ res ✓ health 68ms conn=d2b6b389…4a73 id=91AED688…8351
+2026-05-19T05:39:31.402-05:00 [ws] ⇄ res ✓ node.list 76ms conn=d2b6b389…4a73 id=0074962E…A46E
+2026-05-19T05:42:32.077-05:00 [ws] ⇄ res ✓ health 68ms conn=d2b6b389…4a73 id=DFC7C546…075A
+2026-05-19T14:47:34.617-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: stale-socket)
+2026-05-19T14:47:36.848-05:00 [ws] ⇄ res ✓ health 75ms conn=d2b6b389…4a73 id=46FDC660…B22C
+2026-05-19T14:47:36.849-05:00 [ws] ⇄ res ✓ health 77ms conn=d2b6b389…4a73 id=4B579ACA…5333
+2026-05-19T14:47:36.851-05:00 [ws] ⇄ res ✓ health 79ms conn=d2b6b389…4a73 id=7DE89350…6115
+2026-05-19T14:47:36.852-05:00 [ws] ⇄ res ✓ health 80ms conn=d2b6b389…4a73 id=724E47FD…183E
+2026-05-19T14:47:36.918-05:00 [ws] ⇄ res ✓ node.list 146ms conn=d2b6b389…4a73 id=9F6695EB…AA7E
+2026-05-19T14:47:49.672-05:00 [telegram] [default] auto-restart attempt 1/10 in 5s
+2026-05-19T14:47:56.731-05:00 [telegram] [default] starting provider
+2026-05-19T14:47:56.807-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-19T15:26:11.607-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: stale-socket)
+2026-05-19T15:26:26.636-05:00 [telegram] [default] auto-restart attempt 1/10 in 5s
+2026-05-19T15:26:33.925-05:00 [telegram] [default] starting provider
+2026-05-19T15:26:33.999-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-19T15:36:11.616-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: disconnected)
+2026-05-19T15:36:26.644-05:00 [telegram] [default] auto-restart attempt 1/10 in 5s
+2026-05-19T15:36:34.169-05:00 [telegram] [default] starting provider
+2026-05-19T15:36:34.241-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-19T15:46:12.339-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: disconnected)
+2026-05-19T15:46:18.980-05:00 [ws] ⇄ res ✓ health 76ms conn=d2b6b389…4a73 id=405E1C1B…8218
+2026-05-19T15:46:27.364-05:00 [telegram] [default] auto-restart attempt 1/10 in 5s
+2026-05-19T15:46:34.479-05:00 [telegram] [default] starting provider
+2026-05-19T15:46:34.545-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-19T15:56:12.346-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: disconnected)
+2026-05-19T15:56:20.419-05:00 [ws] ⇄ res ✓ health 77ms conn=d2b6b389…4a73 id=48331919…21D9
+2026-05-19T15:56:27.372-05:00 [telegram] [default] auto-restart attempt 1/10 in 5s
+2026-05-19T15:56:34.721-05:00 [telegram] [default] starting provider
+2026-05-19T15:56:34.790-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-19T16:06:12.359-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: disconnected)
+2026-05-19T16:06:21.870-05:00 [ws] ⇄ res ✓ health 75ms conn=d2b6b389…4a73 id=05C11990…866D
+2026-05-19T16:06:27.378-05:00 [telegram] [default] auto-restart attempt 1/10 in 5s
+2026-05-19T16:06:34.752-05:00 [telegram] [default] starting provider
+2026-05-19T16:06:34.821-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-19T16:16:12.377-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: disconnected)
+2026-05-19T16:16:23.149-05:00 [ws] ⇄ res ✓ health 71ms conn=d2b6b389…4a73 id=7C010488…0CEE
+2026-05-19T16:16:27.396-05:00 [telegram] [default] auto-restart attempt 1/10 in 5s
+2026-05-19T16:16:34.640-05:00 [telegram] [default] starting provider
+2026-05-19T16:16:34.708-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-19T16:20:43.797-05:00 [gateway] signal SIGTERM received
+2026-05-19T16:20:43.824-05:00 [gateway] received SIGTERM; shutting down
+2026-05-19T16:20:43.849-05:00 [shutdown] started: gateway stopping
+2026-05-19T16:20:51.958-05:00 [gmail-watcher] gmail watcher stopped
+2026-05-19T16:20:51.964-05:00 [shutdown] completed cleanly in 8116ms
+2026-05-19T16:23:17.405-05:00 [gateway] loading configuration…
+2026-05-19T16:23:18.253-05:00 [gateway] resolving authentication…
+2026-05-19T16:23:18.263-05:00 [gateway] starting...
+2026-05-19T16:23:20.372-05:00 [gateway] starting HTTP server...
+2026-05-19T16:23:20.399-05:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-05-19T16:23:20.796-05:00 [gateway] agent model: amazon-bedrock/global.anthropic.claude-opus-4-7 (thinking=medium, fast=off)
+2026-05-19T16:23:20.797-05:00 [gateway] http server listening (2 plugins: memory-core, telegram; 2.5s)
+2026-05-19T16:23:20.797-05:00 [gateway] log file: /tmp/openclaw/openclaw-2026-05-19.log
+2026-05-19T16:23:20.813-05:00 [gateway] starting channels and sidecars...
+2026-05-19T16:23:20.865-05:00 [hooks] loaded 5 internal hook handlers
+2026-05-19T16:23:20.923-05:00 [gateway] ready
+2026-05-19T16:23:20.927-05:00 [heartbeat] started
+2026-05-19T16:23:23.069-05:00 [telegram] [default] starting provider (@Mac_Daddy_Claw_Bot)
+2026-05-19T16:23:23.327-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-19T16:23:23.484-05:00 [ws] ⇄ res ✓ exec.approval.list 151ms conn=67aa3b09…157d id=a0fab4bd…0240
+2026-05-19T16:23:23.492-05:00 [gateway] update available (latest): v2026.5.18 (current v2026.5.12). Run: openclaw update
+2026-05-19T16:32:21.749-05:00 [telegram] [default] auto-restart attempt 1/10 in 5s
+2026-05-19T16:49:40.172-05:00 [telegram] [default] starting provider
+2026-05-19T16:49:40.238-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-19T20:47:09.740-05:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: stale-socket)
+2026-05-19T20:47:26.690-05:00 [telegram] [default] auto-restart attempt 1/10 in 5s
+2026-05-19T20:47:32.332-05:00 [telegram] [default] starting provider (@Mac_Daddy_Claw_Bot)
+2026-05-19T20:47:32.405-05:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 67 commands visible.
+2026-05-20T02:52:03.332-05:00 [ws] ⇄ res ✓ channels.status 578ms conn=01b80686…011c id=f7438f07…bb43
+2026-05-20T02:57:36.519-05:00 [ws] ⇄ res ✓ health 181ms conn=5f90ac8a…c56c id=437e8ec8…4734
+2026-05-20T04:56:06.987-05:00 [gateway] signal SIGTERM received
+2026-05-20T04:56:07.011-05:00 [gateway] received SIGTERM; shutting down
+2026-05-20T04:56:07.036-05:00 [shutdown] started: gateway stopping
+2026-05-20T04:56:12.507-05:00 [gmail-watcher] gmail watcher stopped
+2026-05-20T04:56:12.516-05:00 [shutdown] completed cleanly in 5480ms

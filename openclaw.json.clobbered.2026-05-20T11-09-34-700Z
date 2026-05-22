@@ -1,0 +1,434 @@
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "amazon-bedrock/global.anthropic.claude-opus-4-7"
+      },
+      "models": {
+        "amazon-bedrock/global.anthropic.claude-opus-4-7": {},
+        "kimi/kimi-code": {
+          "alias": "Kimi"
+        },
+        "nvidia/nemotron-3-super-120b-a12b": {
+          "alias": "NVIDIA"
+        }
+      },
+      "workspace": "/Users/asherlewis/.openclaw/workspace"
+    }
+  },
+  "auth": {
+    "profiles": {
+      "kimi:default": {
+        "mode": "api_key",
+        "provider": "kimi"
+      },
+      "nvidia:default": {
+        "mode": "api_key",
+        "provider": "nvidia"
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "botToken": "8688400011:AAFKZbBPtFxvViMoLnWRXrjGkkIFoAH3IKM",
+      "enabled": true,
+      "groups": {
+        "*": {
+          "requireMention": true
+        }
+      }
+    }
+  },
+  "commands": {
+    "ownerAllowFrom": [
+      "telegram:5671500122"
+    ]
+  },
+  "gateway": {
+    "auth": {
+      "mode": "token",
+      "token": "8c3376ea97565cd791cdfcef8d91c906d0133fcfda503c16"
+    },
+    "bind": "loopback",
+    "controlUi": {
+      "allowInsecureAuth": true
+    },
+    "mode": "local",
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "contacts.add",
+        "calendar.add",
+        "reminders.add",
+        "sms.send",
+        "sms.search"
+      ]
+    },
+    "port": 18790,
+    "remote": {
+      "sshTarget": "asherlewis@openclaw.local",
+      "url": "ws://127.0.0.1:18790"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "http": {
+      "endpoints": {
+        "chatCompletions": {
+          "enabled": true,
+          "allowedModels": ["*"]
+        }
+      }
+    }
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "boot-md": {
+          "enabled": true
+        },
+        "command-logger": {
+          "enabled": true
+        },
+        "compaction-notifier": {
+          "enabled": true
+        },
+        "session-memory": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "mcp": {
+    "servers": {
+      "gortex": {
+        "args": [
+          "mcp",
+          "--index",
+          ".",
+          "--watch"
+        ],
+        "command": "gortex",
+        "env": {
+          "GORTEX_INDEX_WORKERS": "8"
+        }
+      }
+    }
+  },
+  "messages": {
+    "groupChat": {
+      "visibleReplies": "message_tool"
+    }
+  },
+  "meta": {
+    "lastTouchedAt": "2026-05-20T09:56:42.280Z",
+    "lastTouchedVersion": "2026.5.19-beta.2"
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "kimi": {
+        "api": "anthropic-messages",
+        "apiKey": {
+          "id": "KIMI_API_KEY",
+          "provider": "default",
+          "source": "env"
+        },
+        "baseUrl": "https://api.kimi.com/coding/",
+        "models": [
+          {
+            "contextWindow": 262144,
+            "cost": {
+              "cacheRead": 0,
+              "cacheWrite": 0,
+              "input": 0,
+              "output": 0
+            },
+            "id": "kimi-code",
+            "input": [
+              "text",
+              "image"
+            ],
+            "maxTokens": 32768,
+            "name": "Kimi Code",
+            "reasoning": true
+          }
+        ]
+      },
+      "nvidia": {
+        "api": "openai-completions",
+        "apiKey": {
+          "id": "NVIDIA_API_KEY",
+          "provider": "default",
+          "source": "env"
+        },
+        "baseUrl": "https://integrate.api.nvidia.com/v1",
+        "models": [
+          {
+            "compat": {
+              "requiresStringContent": true
+            },
+            "contextWindow": 262144,
+            "cost": {
+              "cacheRead": 0,
+              "cacheWrite": 0,
+              "input": 0,
+              "output": 0
+            },
+            "id": "nvidia/nemotron-3-super-120b-a12b",
+            "input": [
+              "text"
+            ],
+            "maxTokens": 8192,
+            "name": "NVIDIA Nemotron 3 Super 120B",
+            "reasoning": false
+          },
+          {
+            "compat": {
+              "requiresStringContent": true
+            },
+            "contextWindow": 262144,
+            "cost": {
+              "cacheRead": 0,
+              "cacheWrite": 0,
+              "input": 0,
+              "output": 0
+            },
+            "id": "moonshotai/kimi-k2.5",
+            "input": [
+              "text"
+            ],
+            "maxTokens": 8192,
+            "name": "Kimi K2.5",
+            "reasoning": false
+          },
+          {
+            "compat": {
+              "requiresStringContent": true
+            },
+            "contextWindow": 196608,
+            "cost": {
+              "cacheRead": 0,
+              "cacheWrite": 0,
+              "input": 0,
+              "output": 0
+            },
+            "id": "minimaxai/minimax-m2.5",
+            "input": [
+              "text"
+            ],
+            "maxTokens": 8192,
+            "name": "MiniMax M2.5",
+            "reasoning": false
+          },
+          {
+            "compat": {
+              "requiresStringContent": true
+            },
+            "contextWindow": 202752,
+            "cost": {
+              "cacheRead": 0,
+              "cacheWrite": 0,
+              "input": 0,
+              "output": 0
+            },
+            "id": "z-ai/glm5",
+            "input": [
+              "text"
+            ],
+            "maxTokens": 8192,
+            "name": "GLM-5",
+            "reasoning": false
+          }
+        ]
+      }
+    }
+  },
+  "plugins": {
+    "allow": [
+      "kimi-claw",
+      "telegram",
+      "nvidia",
+      "kimi",
+      "memory-core"
+    ],
+    "bundledDiscovery": "compat",
+    "entries": {
+      "kimi": {
+        "enabled": true
+      },
+      "kimi-claw": {
+        "config": {
+          "bridge": {
+            "kimiapiHost": "https://www.kimi.com/api-claw",
+            "promptTimeoutMs": 1800000,
+            "token": "PASTE_TOKEN_HERE",
+            "url": "wss://www.kimi.com/api-claw/bots/agent-ws"
+          }
+        },
+        "enabled": true
+      },
+      "nvidia": {
+        "enabled": true
+      },
+      "telegram": {
+        "enabled": true
+      }
+    },
+    "load": {
+      "paths": []
+    }
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "skills": {
+    "entries": {
+      "1password": {
+        "enabled": false
+      },
+      "apple-notes": {
+        "enabled": false
+      },
+      "apple-reminders": {
+        "enabled": false
+      },
+      "bear-notes": {
+        "enabled": false
+      },
+      "blogwatcher": {
+        "enabled": false
+      },
+      "blucli": {
+        "enabled": false
+      },
+      "bluebubbles": {
+        "enabled": false
+      },
+      "camsnap": {
+        "enabled": false
+      },
+      "clawhub": {
+        "enabled": false
+      },
+      "coding-agent": {
+        "enabled": false
+      },
+      "discord": {
+        "enabled": false
+      },
+      "eightctl": {
+        "enabled": false
+      },
+      "gemini": {
+        "enabled": false
+      },
+      "gifgrep": {
+        "enabled": false
+      },
+      "gog": {
+        "enabled": false
+      },
+      "goplaces": {
+        "enabled": false
+      },
+      "himalaya": {
+        "enabled": false
+      },
+      "imsg": {
+        "enabled": false
+      },
+      "mcporter": {
+        "enabled": false
+      },
+      "model-usage": {
+        "enabled": false
+      },
+      "nano-pdf": {
+        "enabled": false
+      },
+      "notion": {
+        "enabled": false
+      },
+      "obsidian": {
+        "enabled": false
+      },
+      "openai-whisper": {
+        "enabled": false
+      },
+      "openai-whisper-api": {
+        "enabled": false
+      },
+      "openhue": {
+        "enabled": false
+      },
+      "oracle": {
+        "enabled": false
+      },
+      "ordercli": {
+        "enabled": false
+      },
+      "peekaboo": {
+        "enabled": false
+      },
+      "sag": {
+        "enabled": false
+      },
+      "sherpa-onnx-tts": {
+        "enabled": false
+      },
+      "slack": {
+        "enabled": false
+      },
+      "songsee": {
+        "enabled": false
+      },
+      "sonoscli": {
+        "enabled": false
+      },
+      "spotify-player": {
+        "enabled": false
+      },
+      "summarize": {
+        "enabled": false
+      },
+      "things-mac": {
+        "enabled": false
+      },
+      "tmux": {
+        "enabled": false
+      },
+      "trello": {
+        "enabled": false
+      },
+      "voice-call": {
+        "enabled": false
+      },
+      "wacli": {
+        "enabled": false
+      },
+      "xurl": {
+        "enabled": false
+      }
+    },
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+  "tools": {
+    "profile": "coding"
+  },
+  "wizard": {
+    "lastRunAt": "2026-05-17T16:50:25.650Z",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local",
+    "lastRunVersion": "2026.5.12"
+  },
+  "update": {
+    "channel": "beta"
+  }
+}

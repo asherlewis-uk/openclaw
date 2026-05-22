@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "socket": {
+    "path": "/home/asher/.openclaw/exec-approvals.sock",
+    "token": "8Pu4JMZI2YL8ZGVRKIokqivL0DNto8zv"
+  },
+  "defaults": {},
+  "agents": {}
+}

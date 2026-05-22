@@ -1,0 +1,103 @@
+{
+  "entries": {
+    "/home/asher/.openclaw/openclaw.json": {
+      "lastKnownGood": {
+        "bytes": 8019,
+        "ctimeMs": 1778378939295.789,
+        "dev": "66306",
+        "gatewayMode": "local",
+        "gid": 1000,
+        "hash": "e8a41554d167cbfeb36bbd81019334f546ec482c4cf4b03f9fb6e3aa48018c0b",
+        "hasMeta": true,
+        "ino": "11278120",
+        "mode": 33152,
+        "mtimeMs": 1778378939294.5247,
+        "nlink": 1,
+        "observedAt": "2026-05-10T11:42:51.931Z",
+        "uid": 1000
+      },
+      "lastObservedSuspiciousSignature": null,
+      "lastPromotedGood": {
+        "bytes": 8019,
+        "ctimeMs": 1778378939295.789,
+        "dev": "66306",
+        "gatewayMode": "local",
+        "gid": 1000,
+        "hash": "e8a41554d167cbfeb36bbd81019334f546ec482c4cf4b03f9fb6e3aa48018c0b",
+        "hasMeta": true,
+        "ino": "11278120",
+        "mode": 33152,
+        "mtimeMs": 1778378939294.5247,
+        "nlink": 1,
+        "observedAt": "2026-05-10T11:42:51.931Z",
+        "uid": 1000
+      }
+    },
+    "/root/.openclaw/openclaw.json": {
+      "lastKnownGood": {
+        "bytes": 4976,
+        "ctimeMs": 1777964326997.317,
+        "dev": "66306",
+        "gatewayMode": "local",
+        "gid": 0,
+        "hash": "6947237f3c5610446aacad4c288301218d5b91edf7a1481e9488f4e019504141",
+        "hasMeta": true,
+        "ino": "11277297",
+        "mode": 384,
+        "mtimeMs": 1777964326995.2043,
+        "nlink": 1,
+        "observedAt": "2026-05-05T06:59:35.883Z",
+        "uid": 0
+      },
+      "lastObservedSuspiciousSignature": null,
+      "lastPromotedGood": {
+        "bytes": 4976,
+        "ctimeMs": 1777964326997.317,
+        "dev": "66306",
+        "gatewayMode": "local",
+        "gid": 0,
+        "hash": "6947237f3c5610446aacad4c288301218d5b91edf7a1481e9488f4e019504141",
+        "hasMeta": true,
+        "ino": "11277297",
+        "mode": 33152,
+        "mtimeMs": 1777964326995.2043,
+        "nlink": 1,
+        "observedAt": "2026-05-05T06:58:48.113Z",
+        "uid": 0
+      }
+    },
+    "/Users/asherlewis/.openclaw/openclaw.json": {
+      "lastKnownGood": {
+        "hash": "85ec25cf0b71be8d65a5de2104ed1cc1490ee78a3f0864ac75e341a9450696f8",
+        "bytes": 8987,
+        "mtimeMs": 1779318437081.6711,
+        "ctimeMs": 1779318437085.891,
+        "dev": "16777230",
+        "ino": "13325556",
+        "mode": 420,
+        "nlink": 1,
+        "uid": 501,
+        "gid": 0,
+        "hasMeta": true,
+        "gatewayMode": "local",
+        "observedAt": "2026-05-20T23:08:44.945Z"
+      },
+      "lastObservedSuspiciousSignature": null,
+      "lastPromotedGood": {
+        "hash": "85ec25cf0b71be8d65a5de2104ed1cc1490ee78a3f0864ac75e341a9450696f8",
+        "bytes": 8987,
+        "mtimeMs": 1779318437081.6711,
+        "ctimeMs": 1779318437085.891,
+        "dev": "16777230",
+        "ino": "13325556",
+        "mode": 33188,
+        "nlink": 1,
+        "uid": 501,
+        "gid": 0,
+        "hasMeta": true,
+        "gatewayMode": "local",
+        "observedAt": "2026-05-20T23:08:12.612Z"
+      }
+    }
+  }
+}

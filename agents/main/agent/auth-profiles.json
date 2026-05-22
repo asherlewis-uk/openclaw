@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "profiles": {
+    "nvidia:default": {
+      "type": "api_key",
+      "provider": "nvidia",
+      "key": "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"
+    },
+    "kimi:default": {
+      "type": "api_key",
+      "provider": "kimi",
+      "key": "sk-kimi-vdU6IiHM3u45thTiPc7cDgUszC0cTiVSeLybdOQ3cvZF9daEX8BwnSriZv0qnnPm"
+    }
+  }
+}
