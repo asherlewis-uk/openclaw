@@ -4174,7 +4174,8 @@ _openclaw_skills_install() {
     "--version[Install a specific version]" \
     "--force[Overwrite an existing workspace skill]" \
     "--global[Install into the shared managed skills directory]" \
-    "--agent[Target agent workspace (defaults to cwd-inferred, then default agent)]"
+    "--agent[Target agent workspace (defaults to cwd-inferred, then default agent)]" \
+    "--as[Install a git/local skill under this slug]"
 }
 
 _openclaw_skills_update() {
@@ -4210,7 +4211,7 @@ _openclaw_skills() {
   
   _arguments -C \
     "--agent[Target agent workspace (defaults to cwd-inferred, then default agent)]" \
-    "1: :_values 'command' 'search[Search ClawHub skills]' 'install[Install a skill from ClawHub into the active or shared managed directory]' 'update[Update ClawHub-installed skills in the active or shared managed directory]' 'list[List all available skills]' 'info[Show detailed information about a skill]' 'check[Check which skills are ready, visible, or missing requirements]'" \
+    "1: :_values 'command' 'search[Search ClawHub skills]' 'install[Install a skill from ClawHub, git, or a local directory]' 'update[Update ClawHub-installed skills in the active or shared managed directory]' 'list[List all available skills]' 'info[Show detailed information about a skill]' 'check[Check which skills are ready, visible, or missing requirements]'" \
     "*::arg:->args"
 
   case $state in

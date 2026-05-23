@@ -5,13 +5,13 @@
         "primary": "amazon-bedrock/global.anthropic.claude-opus-4-7"
       },
       "models": {
+        "amazon-bedrock/global.anthropic.claude-opus-4-7": {},
         "kimi/kimi-code": {
           "alias": "Kimi"
         },
         "nvidia/nemotron-3-super-120b-a12b": {
           "alias": "NVIDIA"
-        },
-        "amazon-bedrock/global.anthropic.claude-opus-4-7": {}
+        }
       },
       "workspace": "/Users/asherlewis/.openclaw/workspace"
     }
@@ -95,13 +95,29 @@
       }
     }
   },
+  "mcp": {
+    "servers": {
+      "gortex": {
+        "args": [
+          "mcp",
+          "--index",
+          ".",
+          "--watch"
+        ],
+        "command": "gortex",
+        "env": {
+          "GORTEX_INDEX_WORKERS": "8"
+        }
+      }
+    }
+  },
   "messages": {
     "groupChat": {
       "visibleReplies": "message_tool"
     }
   },
   "meta": {
-    "lastTouchedAt": "2026-05-17T17:35:48.994Z",
+    "lastTouchedAt": "2026-05-17T17:35:54.528Z",
     "lastTouchedVersion": "2026.5.12"
   },
   "models": {
@@ -109,6 +125,11 @@
     "providers": {
       "kimi": {
         "api": "anthropic-messages",
+        "apiKey": {
+          "id": "KIMI_API_KEY",
+          "provider": "default",
+          "source": "env"
+        },
         "baseUrl": "https://api.kimi.com/coding/",
         "models": [
           {
@@ -128,15 +149,15 @@
             "name": "Kimi Code",
             "reasoning": true
           }
-        ],
-        "apiKey": {
-          "source": "env",
-          "provider": "default",
-          "id": "KIMI_API_KEY"
-        }
+        ]
       },
       "nvidia": {
         "api": "openai-completions",
+        "apiKey": {
+          "id": "NVIDIA_API_KEY",
+          "provider": "default",
+          "source": "env"
+        },
         "baseUrl": "https://integrate.api.nvidia.com/v1",
         "models": [
           {
@@ -227,6 +248,7 @@
       "kimi",
       "memory-core"
     ],
+    "bundledDiscovery": "compat",
     "entries": {
       "kimi": {
         "enabled": true
@@ -251,8 +273,7 @@
     },
     "load": {
       "paths": []
-    },
-    "bundledDiscovery": "compat"
+    }
   },
   "session": {
     "dmScope": "per-channel-peer"

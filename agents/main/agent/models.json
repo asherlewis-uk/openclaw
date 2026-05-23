@@ -671,6 +671,23 @@
           }
         },
         {
+          "id": "alibaba/qwen3.7-max",
+          "name": "Qwen 3.7 Max",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 991000,
+          "maxTokens": 64000,
+          "cost": {
+            "input": 2.5,
+            "output": 7.5,
+            "cacheRead": 0.5,
+            "cacheWrite": 3.125
+          }
+        },
+        {
           "id": "alibaba/wan-v2.5-t2v-preview",
           "name": "Wan v2.5 Text-to-Video Preview",
           "reasoning": false,

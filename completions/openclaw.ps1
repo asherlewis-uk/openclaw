@@ -2237,7 +2237,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'skills install') {
-                $completions = @('--version','--force','--global','--agent')
+                $completions = @('--version','--force','--global','--agent','--as')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }

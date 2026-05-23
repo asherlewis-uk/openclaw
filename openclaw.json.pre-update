@@ -2,10 +2,9 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "amazon-bedrock/global.anthropic.claude-opus-4-7"
+        "primary": "kimi/kimi-code"
       },
       "models": {
-        "amazon-bedrock/global.anthropic.claude-opus-4-7": {},
         "kimi/kimi-code": {
           "alias": "Kimi"
         },
@@ -142,7 +141,7 @@
     }
   },
   "meta": {
-    "lastTouchedAt": "2026-05-20T20:07:41.488Z",
+    "lastTouchedAt": "2026-05-20T20:16:43.958Z",
     "lastTouchedVersion": "2026.5.19-beta.2"
   },
   "models": {
@@ -267,33 +266,24 @@
   },
   "plugins": {
     "allow": [
-      "kimi-claw",
       "telegram",
       "nvidia",
       "kimi",
       "memory-core",
       "matrix"
- ],
+    ],
     "bundledDiscovery": "compat",
     "entries": {
       "kimi": {
-        "enabled": true
-      },
-      "kimi-claw": {
-        "config": {
-          "bridge": {
-            "kimiapiHost": "https://www.kimi.com/api-claw",
-            "promptTimeoutMs": 1800000,
-            "token": "PASTE_TOKEN_HERE",
-            "url": "wss://www.kimi.com/api-claw/bots/agent-ws"
-          }
-        },
         "enabled": true
       },
       "nvidia": {
         "enabled": true
       },
       "telegram": {
+        "enabled": true
+      },
+      "matrix": {
         "enabled": true
       }
     },
