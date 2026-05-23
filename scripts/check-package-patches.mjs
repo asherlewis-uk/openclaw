@@ -21,9 +21,11 @@ function listTrackedFiles(cwd, patterns) {
   return execFileSync("git", ["ls-files", "-z", "--", ...patterns], {
     cwd,
     encoding: "utf8",
+    maxBuffer: 128 * 1024 * 1024,
   })
     .split("\0")
     .filter(Boolean)
+    .filter((file) => !file.includes("/node_modules/"))
     .toSorted((left, right) => left.localeCompare(right));
 }
 
@@ -40,7 +42,11 @@ function readJsonFile(cwd, relativePath) {
   if (!fs.existsSync(filePath)) {
     return undefined;
   }
-  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  const content = fs.readFileSync(filePath, "utf8");
+  if (!content.trim()) {
+    return undefined;
+  }
+  return JSON.parse(content);
 }
 
 function collectPatchedDependencyViolations(file, patchedDependencies, violations, options = {}) {

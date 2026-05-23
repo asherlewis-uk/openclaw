@@ -10,6 +10,7 @@ function listTrackedExtensionSources() {
   return execFileSync("git", ["ls-files", "extensions/**/*.ts"], {
     encoding: "utf8",
     stdio: ["ignore", "pipe", "pipe"],
+    maxBuffer: 128 * 1024 * 1024,
   })
     .split("\n")
     .filter(Boolean)
