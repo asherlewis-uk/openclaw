@@ -2,7 +2,7 @@
   "agent:main:main": {
     "sessionId": "529d6c11-2f2c-48b9-9cca-20d787e5d9cc",
     "sessionFile": "/Users/asherlewis/.openclaw/agents/main/sessions/529d6c11-2f2c-48b9-9cca-20d787e5d9cc.jsonl",
-    "updatedAt": 1779507573162,
+    "updatedAt": 1779511173595,
     "systemSent": true,
     "abortedLastRun": false,
     "elevatedLevel": "full",
@@ -128,7 +128,7 @@
     "agentHarnessId": "pi",
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1779507571472,
+      "generatedAt": 1779511171978,
       "sessionId": "529d6c11-2f2c-48b9-9cca-20d787e5d9cc",
       "sessionKey": "agent:main:main",
       "provider": "kimi",
@@ -148,9 +148,9 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 39165,
+        "chars": 39484,
         "projectContextChars": 16999,
-        "nonProjectContextChars": 22166
+        "nonProjectContextChars": 22485
       },
       "injectedWorkspaceFiles": [
         {
@@ -349,7 +349,7 @@
       },
       "tools": {
         "listChars": 0,
-        "schemaChars": 13687,
+        "schemaChars": 20878,
         "entries": [
           {
             "name": "read",
@@ -371,15 +371,21 @@
           },
           {
             "name": "exec",
-            "summaryChars": 446,
+            "summaryChars": 539,
             "schemaChars": 1187,
             "propertiesCount": 12
           },
           {
             "name": "process",
-            "summaryChars": 362,
+            "summaryChars": 456,
             "schemaChars": 1074,
             "propertiesCount": 12
+          },
+          {
+            "name": "cron",
+            "summaryChars": 3610,
+            "schemaChars": 7191,
+            "propertiesCount": 14
           },
           {
             "name": "image_generate",
@@ -485,7 +491,7 @@
       }
     },
     "status": "done",
-    "startedAt": 1779507571561,
+    "startedAt": 1779511172030,
     "compactionCheckpoints": [
       {
         "checkpointId": "41f89130-20aa-424a-9f11-b9bc97a31888",
@@ -540,16 +546,16 @@
     "modelProvider": "kimi",
     "model": "kimi-for-coding",
     "contextTokens": 262144,
-    "inputTokens": 18924,
+    "inputTokens": 21424,
     "outputTokens": 1,
-    "totalTokens": 18924,
+    "totalTokens": 21424,
     "route": {
       "channel": "webchat"
     },
     "fastMode": true,
     "responseUsage": "full",
-    "endedAt": 1779507573095,
-    "runtimeMs": 1534
+    "endedAt": 1779511173532,
+    "runtimeMs": 1502
   },
   "agent:main:telegram:direct:5671500122": {
     "sessionId": "c32dc07e-77ce-431d-a627-1aede84d5af7",
@@ -1095,18 +1101,18 @@
   "agent:main:tui-37ede8a0-1cd7-4810-9bc1-951094d2358f": {
     "sessionId": "36c9e502-0b0a-4d57-8c50-e5ebc3313610",
     "sessionFile": "/Users/asherlewis/.openclaw/agents/main/sessions/36c9e502-0b0a-4d57-8c50-e5ebc3313610.jsonl",
-    "updatedAt": 1779508777668,
+    "updatedAt": 1779512164611,
     "systemSent": false,
-    "abortedLastRun": true,
+    "abortedLastRun": false,
     "providerOverride": "kimi",
     "modelOverride": "kimi-code",
     "modelOverrideSource": "user",
     "model": "kimi-for-coding",
     "modelProvider": "kimi",
     "contextTokens": 262144,
-    "inputTokens": 19760,
-    "outputTokens": 0,
-    "totalTokens": 19760,
+    "inputTokens": 24871,
+    "outputTokens": 246,
+    "totalTokens": 106246,
     "totalTokensFresh": true,
     "sessionStartedAt": 1779508294180,
     "skillsSnapshot": {
@@ -1223,11 +1229,11 @@
       ],
       "version": 0
     },
-    "lastInteractionAt": 1779508777658,
+    "lastInteractionAt": 1779512164598,
     "agentHarnessId": "pi",
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1779508725911,
+      "generatedAt": 1779512154549,
       "sessionId": "36c9e502-0b0a-4d57-8c50-e5ebc3313610",
       "sessionKey": "agent:main:tui-37ede8a0-1cd7-4810-9bc1-951094d2358f",
       "provider": "kimi",
@@ -1567,12 +1573,13 @@
         ]
       },
       "currentTurn": {
-        "promptChars": 179,
+        "promptChars": 43,
         "runtimeContextChars": 0
       }
     },
-    "cacheRead": 0,
-    "cacheWrite": 0
+    "cacheRead": 81375,
+    "cacheWrite": 0,
+    "verboseLevel": "on"
   },
   "agent:main:openai:fb0ba957-5d7e-42af-82c1-1ef1727a6a4c": {
     "sessionId": "67ac692e-6e6b-44e1-83ad-dbcb4a987af6",
